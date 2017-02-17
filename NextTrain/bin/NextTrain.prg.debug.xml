@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="14" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="15" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="19" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="20" pc="268435487" symbol="onLayout"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="24" pc="268435501" symbol="onShow"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="28" pc="268435506" symbol="onUpdate"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="29" pc="268435510" symbol="onUpdate"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="30" pc="268435546" symbol="onUpdate"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="31" pc="268435558" symbol="onUpdate"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="36" pc="268435650" symbol="onHide"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="39" pc="268435655" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="40" pc="268435659" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="41" pc="268435679" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="42" pc="268435702" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="43" pc="268435712" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="47" pc="268435761" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="48" pc="268435784" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="49" pc="268435797" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="50" pc="268435810" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="51" pc="268435834" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestView.mc" lineNum="54" pc="268435921" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="15" pc="268435938" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="16" pc="268435942" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="17" pc="268435959" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="20" pc="268435975" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="23" pc="268435988" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="24" pc="268436008" symbol="onMenu"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="27" pc="268436012" symbol="onSelect"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="28" pc="268436016" symbol="onSelect"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="29" pc="268436036" symbol="onSelect"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="32" pc="268436040" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="33" pc="268436044" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="35" pc="268436067" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="36" pc="268436067" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="37" pc="268436078" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="40" pc="268436088" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="43" pc="268436095" symbol="makeRequest"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="56" pc="268436176" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="57" pc="268436180" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="58" pc="268436202" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="62" pc="268436213" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="63" pc="268436217" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="64" pc="268436227" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="65" pc="268436235" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="66" pc="268436268" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="67" pc="268436301" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="69" pc="268436334" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="70" pc="268436354" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="71" pc="268436377" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="74" pc="268436414" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="76" pc="268436437" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="77" pc="268436450" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="78" pc="268436474" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="82" pc="268436528" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="83" pc="268436539" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="85" pc="268436565" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestDelegate.mc" lineNum="88" pc="268436588" symbol="onReceive"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="12" pc="268436624" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="13" pc="268436628" symbol="initialize"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="17" pc="268436651" symbol="onStart"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="21" pc="268436656" symbol="onStop"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="25" pc="268436661" symbol="getInitialView"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="26" pc="268436665" symbol="getInitialView"/>
+<entry filename="C:\\workspace\\eclipse\\WebRequest\\source\\WebRequestApp.mc" lineNum="27" pc="268436695" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="17" symbol="direction"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388639" symbol="Graphics"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389115" symbol="mMessage"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="15" symbol="AppName"/>
+<entry id="18" method="true" symbol="makeRequest"/>
+<entry id="8389594" symbol="headers"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="10" object="true" symbol="WebRequestApp"/>
+<entry id="8" object="true" symbol="WebRequestView"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="16" symbol="notify"/>
+<entry id="9" object="true" symbol="WebRequestDelegate"/>
+<entry id="20" symbol="mModel"/>
+<entry id="13" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="19" method="true" symbol="onReceive"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+<entry id="11" symbol="mView"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435918" name="i" stackId="3" startPc="268435834"/>
+<entry endPc="268435918" name="keys" stackId="2" startPc="268435761"/>
+<entry endPc="268436175" name="url" stackId="2" startPc="268436044"/>
+<entry endPc="268436525" name="i" stackId="5" startPc="268436474"/>
+<entry endPc="268436525" name="keys" stackId="4" startPc="268436414"/>
+<entry endPc="268436623" name="data_out" stackId="3" startPc="268436217"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="WebRequestView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onShow" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate" parent="WebRequestView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onReceive" parent="WebRequestView">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onMenu" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry name="onSelect" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry name="makeRequest" parent="WebRequestDelegate">
+<param id="direction"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="WebRequestDelegate">
+<param id="handler"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onReceive" parent="WebRequestDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="WebRequestApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="WebRequestApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onStop" parent="WebRequestApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getInitialView" parent="WebRequestApp">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
