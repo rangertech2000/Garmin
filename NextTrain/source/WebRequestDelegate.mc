@@ -48,11 +48,9 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             {},
             {
             //:method => Comm.HTTP_REQUEST_METHOD_GET,
-            //:method => 1//,
             "Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON//,
             //:headers {"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON}//,
             //:responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
-            //:responseType => 0
              },
             method(:onReceive)
         );
@@ -68,6 +66,8 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) { 
     	data = data[0]; //concert the array to a dictionary type
     	
+    	var data_out = {"Depart Time"=>data.get("orig_departure_time"),"Delay"=>data.get("orig_delay")};
+    	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
             System.println("Dictionary size: " + data.size());
@@ -87,7 +87,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         if (responseCode == 200) {
         	System.println("reponseCode: " + responseCode);
             //notify.invoke(data["orig_line"]);
-            notify.invoke(data);
+            notify.invoke(data_out);
         } else {
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }

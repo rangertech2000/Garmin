@@ -5,7 +5,10 @@
 //
 
 using Toybox.WatchUi as Ui;
-using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+using Toybox.System as Sys;
+using Toybox.Lang as Lang;
 
 class WebRequestView extends Ui.View {
     hidden var mMessage = "Press menu button";
@@ -17,6 +20,8 @@ class WebRequestView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
+    	setLayout(Rez.Layouts.WatchFace(dc));
+    	
         mMessage = "Press menu or\nselect button";
     }
 
@@ -26,9 +31,20 @@ class WebRequestView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        dc.clear();
-        dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_MEDIUM, mMessage, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+       
+        // Get and show the current time
+        var clockTime = Sys.getClockTime();
+        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
+        var view = View.findDrawableById("TimeLabel");
+        view.setText(timeString);
+
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+        
+        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        //dc.clear();
+        dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        
     }
 
     // Called when this View is removed from the screen. Save the
