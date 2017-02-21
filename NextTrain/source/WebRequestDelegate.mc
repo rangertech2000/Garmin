@@ -10,16 +10,16 @@ using Toybox.System;
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var direction;
+    var direction, station1, station2;
 
     // Handle menu button press
     function onMenu() {
     
-    	if (direction == 1) {
-    		direction = 2;
+    	if (direction == "Inbound") {
+    		direction = "Outbound";
     	}
     	else {
-    		direction = 1;
+    		direction = "Inbound";
     	}
     			
         makeRequest(direction);
@@ -34,11 +34,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function makeRequest(direction) {
     	var url;
     	
-    	if (direction == 1) {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";   
+    	if (direction == "Inbound") {
+			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1";  
 		}
 		else {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1";   
+			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";    
 		}
 			 
         notify.invoke("Executing\nRequest");

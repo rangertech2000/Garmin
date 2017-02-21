@@ -1,3 +1,7 @@
 <layout id="WatchFace">
-    <label id="TimeLabel" x="center" y="top" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" />
+    <label id="TimeLabel" x="center" y="top" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" ></label>
+    <label id="DirectionLabel" x="center" y="bottom"
+    	font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER"
+    	color="Gfx.COLOR_BLUE">
+    </label>
 </layout>

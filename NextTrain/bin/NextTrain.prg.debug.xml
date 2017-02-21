@@ -73,7 +73,10 @@
 <entry filename="Rez" lineNum="20" pc="268436955" symbol="WatchFace"/>
 <entry filename="Rez" lineNum="21" pc="268437118" symbol="WatchFace"/>
 <entry filename="Rez" lineNum="22" pc="268437143" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268437195" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268437195" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268437358" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268437383" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268437435" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" symbol="System"/>
@@ -90,7 +93,7 @@
 <entry id="8389115" symbol="mMessage"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="15" symbol="AppName"/>
-<entry id="18" method="true" symbol="makeRequest"/>
+<entry id="20" method="true" symbol="makeRequest"/>
 <entry id="8389375" method="true" symbol="WatchFace"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry field="true" id="14" symbol="LauncherIcon"/>
@@ -106,12 +109,14 @@
 <entry id="8389348" symbol="font"/>
 <entry id="9" object="true" symbol="WebRequestDelegate"/>
 <entry id="8389347" symbol="color"/>
-<entry id="20" symbol="mModel"/>
+<entry id="22" symbol="mModel"/>
 <entry id="13" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="19" symbol="station2"/>
+<entry field="true" id="18" symbol="station1"/>
 <entry id="8389063" symbol="identifier"/>
 <entry id="12" module="true" symbol="Menus"/>
-<entry id="19" method="true" symbol="onReceive"/>
+<entry id="21" method="true" symbol="onReceive"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
 <entry id="11" symbol="mView"/>
 </symbolTable>
@@ -125,8 +130,10 @@
 <entry endPc="268436606" name="i" stackId="5" startPc="268436557"/>
 <entry endPc="268436606" name="keys" stackId="4" startPc="268436466"/>
 <entry endPc="268436803" name="data_out" stackId="3" startPc="268436380"/>
-<entry endPc="268437212" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436955"/>
-<entry endPc="268437212" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436955"/>
+<entry endPc="268437462" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436955"/>
+<entry endPc="268437462" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436955"/>
+<entry endPc="268437462" name="rez_cmp_local_bitmap_DirectionLabel" stackId="4" startPc="268436955"/>
+<entry endPc="268437462" name="rez_cmp_local_bitmap_DirectionLabel_fontHeight" stackId="5" startPc="268436955"/>
 </localVars>
 <annotations/>
 <functions>
