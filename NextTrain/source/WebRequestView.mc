@@ -37,6 +37,9 @@ class WebRequestView extends Ui.View {
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
+        
+        //var viewDirection = View.findDrawableById("DirectionLabel");
+        //viewDirection.setText(direction);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -45,9 +48,6 @@ class WebRequestView extends Ui.View {
         //dc.clear();
         dc.drawText(dc.getWidth()/2, 100, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         
-        //var viewDirection = View.findDrawableById("DirectionLabel");
-        //viewDirection.setText(mMessage);
-        //viewDirection.setText("HellowView");
     }
 
     // Called when this View is removed from the screen. Save the

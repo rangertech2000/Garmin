@@ -8,6 +8,7 @@ using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
 
+
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
     var direction, directionString;
@@ -21,7 +22,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     	else {
     		direction = 1;
     	}
-    						
+    			
         makeRequest(direction);
         return true;
     }
