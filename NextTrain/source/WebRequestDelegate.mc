@@ -10,18 +10,18 @@ using Toybox.System;
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var direction, station1, station2;
+    var direction, directionString;
 
     // Handle menu button press
     function onMenu() {
     
-    	if (direction == "Inbound") {
-    		direction = "Outbound";
+    	if (direction == 1) {
+    		direction = 2;
     	}
     	else {
-    		direction = "Inbound";
+    		direction = 1;
     	}
-    			
+    						
         makeRequest(direction);
         return true;
     }
@@ -32,17 +32,19 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     }
 
     function makeRequest(direction) {
-    	var url;
+    	notify.invoke("Executing\nRequest");
     	
-    	if (direction == "Inbound") {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1";  
+    	var url;
+    	if (direction == 1) {
+			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1"; 
+			directionString = "Inbound";
 		}
 		else {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";    
+			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";  
+			directionString = "Outbound";  
 		}
-			 
-        notify.invoke("Executing\nRequest");
-
+        
+        
         Comm.makeWebRequest(
             url,
             {},
@@ -66,7 +68,9 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) { 
     	data = data[0]; //concert the array to a dictionary type
     	
-    	var data_out = {"Depart Time"=>data.get("orig_departure_time"),"Delay"=>data.get("orig_delay")};
+    	var data_out = {"Depart Time"=>data.get("orig_departure_time"),
+    		"Delay"=>data.get("orig_delay"),
+    		"Direction"=>directionString};
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");

@@ -5,7 +5,7 @@
 //
 
 using Toybox.Application as App;
-
+    
 class WebRequestApp extends App.AppBase {
     hidden var mView;
 
