@@ -6,13 +6,13 @@
 
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
-
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 
 class WebRequestView extends Ui.View {
     hidden var mMessage = "Press menu button";
     hidden var mModel;
+    
 
     function initialize() {
         Ui.View.initialize();
@@ -43,8 +43,11 @@ class WebRequestView extends Ui.View {
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         //dc.clear();
-        dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(dc.getWidth()/2, 100, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         
+        //var viewDirection = View.findDrawableById("DirectionLabel");
+        //viewDirection.setText(mMessage);
+        //viewDirection.setText("HellowView");
     }
 
     // Called when this View is removed from the screen. Save the
