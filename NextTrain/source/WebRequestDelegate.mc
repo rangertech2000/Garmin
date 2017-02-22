@@ -8,19 +8,23 @@ using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
 
+
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var direction, station1, station2;
+    var direction;
 
     // Handle menu button press
     function onMenu() {
     
-    	if (direction == "Inbound") {
-    		direction = "Outbound";
+    	if (direction == 1) {
+    		direction = 2;
     	}
     	else {
-    		direction = "Inbound";
+    		direction = 1;
     	}
+    	//var viewDirection = View.findDrawableById("DirectionLabel");
+        //viewDirection.setText(direction);
+    	System.println(direction);
     			
         makeRequest(direction);
         return true;
@@ -34,7 +38,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function makeRequest(direction) {
     	var url;
     	
-    	if (direction == "Inbound") {
+    	if (direction == 1) {
 			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1";  
 		}
 		else {
