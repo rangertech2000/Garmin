@@ -13,7 +13,6 @@ class WebRequestView extends Ui.View {
     hidden var mMessage = "Press menu button";
     hidden var mModel;
     
-
     function initialize() {
         Ui.View.initialize();
     }
@@ -22,7 +21,15 @@ class WebRequestView extends Ui.View {
     function onLayout(dc) {
     	setLayout(Rez.Layouts.WatchFace(dc));
     	
-        mMessage = "Press menu or\nselect button";
+        mMessage = "Requesting Data...";
+        
+        // Retrieve data on page load
+        var v = new WebRequestDelegate(WebRequestView.method(:onReceive));
+    	// Get the callback for the onReceive method.
+    	var m = v.method(:makeRequest);
+    	// Invoke v's makeRequest method.
+    	mMessage = m.invoke(1);
+        
     }
 
     // Restore the state of the app and prepare the view to be shown
@@ -34,7 +41,16 @@ class WebRequestView extends Ui.View {
        
         // Get and show the current time
         var clockTime = Sys.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
+        var ap;
+        var hour = clockTime.hour; 
+        	if (hour > 12) {
+        		hour = hour - 12;
+        		ap = "PM";
+        	}
+        	else {
+        		ap = "AM";
+        	}	
+        var timeString = Lang.format("$1$:$2$ $3$", [hour, clockTime.min.format("%02d"), ap]);
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
         

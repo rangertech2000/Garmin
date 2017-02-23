@@ -12,10 +12,13 @@ using Toybox.System;
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
     var direction, directionString;
+    hidden var sView;
 
     // Handle menu button press
     function onMenu() {
-    	Ui.pushView( new ScheduleView(), new ScheduleViewDelegate(), Ui.SLIDE_UP );
+    	sView = new ScheduleView();
+    	Ui.pushView(sView, new ScheduleViewDelegate(sView.method(:onReceive)), Ui.SLIDE_UP );
+    	//Ui.pushView(sView, new ScheduleViewDelegate(), Ui.SLIDE_UP );
     	return true;
     }
     
@@ -39,6 +42,12 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onSelect() {
         makeRequest(direction);
         return true;
+    }
+    
+    // Set up the callback to the view
+    function initialize(handler) {
+        Ui.BehaviorDelegate.initialize();
+        notify = handler;
     }
 
     function makeRequest(direction) {
@@ -66,12 +75,6 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
              },
             method(:onReceive)
         );
-    }
-
-    // Set up the callback to the view
-    function initialize(handler) {
-        Ui.BehaviorDelegate.initialize();
-        notify = handler;
     }
 
     // Receive the data from the web request
