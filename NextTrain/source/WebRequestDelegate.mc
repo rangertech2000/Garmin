@@ -15,7 +15,16 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 
     // Handle menu button press
     function onMenu() {
+    	Ui.pushView( new ScheduleView(), new ScheduleViewDelegate(), Ui.SLIDE_UP );
+    	return true;
+    }
     
+    function onBack() {
+    	System.exit();
+    	return true;
+    }
+    
+    function onKey(KEY_START) {
     	if (direction == 1) {
     		direction = 2;
     	}
@@ -77,12 +86,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             System.println("data is a Dictionary.");
             System.println("Dictionary size: " + data.size());
             
-            var keys = data.keys();
-            for( var i = 0; i < keys.size(); i++ ) {
-                //System.println("$1$: $2$\n", [keys[i], data[keys[i]]]);
-                System.println(keys[i] + " : " + data[keys[i]]);
-                //notify.invoke(keys[i] + " : " + data[keys[i]]);
-            }
+            //var keys = data.keys();
+            //for( var i = 0; i < keys.size(); i++ ) {
+            //    System.println(keys[i] + " : " + data[keys[i]]);
+            //}
         } else if (data instanceof Lang.Array) {
             System.println("data is an Array.");
             System.println("Array size: " + data.size());
