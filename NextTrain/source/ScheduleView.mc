@@ -58,7 +58,7 @@ class ScheduleView extends Ui.View {
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         //dc.clear();
-        dc.drawText(dc.getWidth()/2, 100, Gfx.FONT_SMALL, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(10, 10, Gfx.FONT_SMALL, mMessage, Gfx.TEXT_JUSTIFY_LEFT);
         
     }
 
@@ -80,7 +80,8 @@ class ScheduleView extends Ui.View {
             mMessage = "";
             
             for( var i = 0; i < keys.size(); i++ ) {
-                mMessage += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
+                //mMessage += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
+                mMessage += args[keys[i]] +"\n";
             }
         }
         

@@ -62,21 +62,11 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
 
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	//data = data[0]; //concert the array to a dictionary type
-    	
     	var data_out = {};
-    	//var data_out = {"Depart Time"=>data.get("orig_departure_time"),
-    	//	"Delay"=>data.get("orig_delay"),
-    	//	"Direction"=>directionString};
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
             System.println("Dictionary size: " + data.size());
-            
-            //var keys = data.keys();
-            //for( var i = 0; i < keys.size(); i++ ) {
-            //    System.println(keys[i] + " : " + data[keys[i]]);
-            //}
         } 
         else if (data instanceof Lang.Array) {
             System.println("data is an Array.");
@@ -85,7 +75,12 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             for (var i = 0; i < data.size(); i++) {
             	System.println(data[i]);
             	var data_temp = data[i]; //convert the array to a dictionary type
-            	data_out.put("Depart_Time_" + i.toString(), data_temp.get("orig_departure_time"));
+            	var delay = data_temp.get("orig_delay");
+            	
+            	if (delay.equals("On time")) {delay = 0;}
+            	else {delay = delay.substring(0, delay.find(" mins")).toNumber();}
+
+            	data_out.put("Row" + i.toString(), Lang.format("$1$m $2$ --> $3$" , [delay.format("%02d"), data_temp.get("orig_departure_time"), data_temp.get("orig_arrival_time")]));
             }
         }      	
 
