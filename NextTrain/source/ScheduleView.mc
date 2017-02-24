@@ -11,7 +11,7 @@ using Toybox.Lang as Lang;
 
 class ScheduleView extends Ui.View {
     hidden var mMessage = "Schedule View";
-    
+    var direction;
 
     function initialize() {
         Ui.View.initialize();
@@ -28,7 +28,7 @@ class ScheduleView extends Ui.View {
     	// Get the callback for the onReceive method.
     	var m = v.method(:makeRequest);
     	// Invoke v's makeRequest method.
-    	mMessage = m.invoke(1);
+    	mMessage = m.invoke(direction);
     }
 
     // Restore the state of the app and prepare the view to be shown

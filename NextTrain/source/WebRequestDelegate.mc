@@ -11,7 +11,7 @@ using Toybox.System;
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var direction, directionString;
+    var directionString;
     hidden var sView;
 
     // Handle menu button press
