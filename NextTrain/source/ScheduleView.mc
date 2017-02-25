@@ -11,7 +11,7 @@ using Toybox.Lang as Lang;
 
 class ScheduleView extends Ui.View {
     hidden var mMessage = "Schedule View";
-    var direction;
+    //var direction;
 
     function initialize() {
         Ui.View.initialize();

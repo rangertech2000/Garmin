@@ -59,6 +59,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 			directionString = "Inbound";
 		}
 		else {
+			direction = 2;
 			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";  
 			directionString = "Outbound";  
 		}

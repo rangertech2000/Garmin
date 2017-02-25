@@ -28,7 +28,7 @@ class WebRequestView extends Ui.View {
     	// Get the callback for the onReceive method.
     	var m = v.method(:makeRequest);
     	// Invoke v's makeRequest method.
-    	mMessage = m.invoke(1);
+    	mMessage = m.invoke(direction);
         
     }
 

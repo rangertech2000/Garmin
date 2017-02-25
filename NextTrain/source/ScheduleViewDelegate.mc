@@ -62,7 +62,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
 
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	var data_out = "";
+    	var data_out = "Delay    Depart          Arrive\n";
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
@@ -80,7 +80,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             	if (delay.equals("On time")) {delay = 0;}
             	else {delay = delay.substring(0, delay.find(" mins")).toNumber();}
 
-            	data_out += Lang.format("$1$m $2$ --> $3$\n",  
+            	data_out += Lang.format("$1$m     $2$ --> $3$\n",  
             		[delay.format("%02d"), 
             		data_temp.get("orig_departure_time"), 
             		data_temp.get("orig_arrival_time")]
