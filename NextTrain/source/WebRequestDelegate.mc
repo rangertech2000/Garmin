@@ -11,7 +11,6 @@ using Toybox.System;
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var directionString;
     hidden var sView;
 
     // Handle menu button press
@@ -98,9 +97,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) { 
     	data = data[0]; //concert the array to a dictionary type
     	
-    	var data_out = {"Depart Time"=>data.get("orig_departure_time"),
-    		"Delay"=>data.get("orig_delay"),
-    		"Direction"=>directionString};
+    	var data_out = {"Depart Time"=>data.get("orig_departure_time")
+    		,"Delay"=>data.get("orig_delay")
+    		//,"Direction"=>directionString
+    		};
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");

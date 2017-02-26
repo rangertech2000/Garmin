@@ -11,7 +11,7 @@ using Toybox.System;
 
 class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     var notify;
-    var direction, directionString;
+    //var direction, directionString;
 
     // Handle menu button press
     function onMenu() {

@@ -5,7 +5,7 @@
 //
 
 using Toybox.Application as App;
-var direction;
+var direction, directionString;
 var station1 = "Narberth";
 var station2 = "Suburban Station";
 var startStation, endStation;
