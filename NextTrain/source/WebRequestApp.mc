@@ -6,6 +6,9 @@
 
 using Toybox.Application as App;
 var direction;
+var station1 = "Narberth";
+var station2 = "Suburban Station";
+var startStation, endStation;
     
 class WebRequestApp extends App.AppBase {
     hidden var mView;

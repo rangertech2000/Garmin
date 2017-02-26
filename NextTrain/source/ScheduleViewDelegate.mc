@@ -41,16 +41,8 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     function makeRequest(direction) {
     	notify.invoke("Executing\nRequest");
     	
-    	var url;
-    	if (direction == 1) {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/20"; 
-			directionString = "Inbound";
-		}
-		else {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/20";  
-			directionString = "Outbound";  
-		}
-        
+    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + removeSpaces(startStation) + "/" + removeSpaces(endStation) + "/20"; 
+		directionString = startStation + "-->" + endStation;
         
         Comm.makeWebRequest(
             url,
@@ -60,6 +52,24 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
         );
     }
 
+
+    function removeSpaces(word) {
+        var word1, word2;
+    	var wordLength = word.length();
+    	var space = word.find(" ");
+    	
+    	while (space != null) {
+    		word1 = word.substring(0, space) + "%20";
+    		word2 = word.substring(space + 1, wordLength);
+    		word = word1 + word2;
+    		
+    		space = word.find(" ");
+    		wordLength = word.length();
+    	}
+    	return word;
+    }
+    
+    
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
     	var data_out = "Delay    Depart          Arrive\n";
@@ -73,7 +83,6 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             System.println("Array size: " + data.size());
             
             for (var i = 0; i < data.size(); i++) {
-            	System.println(data[i]);
             	var data_temp = data[i]; //convert the array to a dictionary type
             	var delay = data_temp.get("orig_delay");
             	

@@ -27,18 +27,14 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     	return true;
     }
     
+    // Change direction
     function onKey(KEY_START) {
-    	if (direction == 1) {
-    		direction = 2;
-    	}
-    	else {
-    		direction = 1;
-    	}
-    			
+    	changeDirection();
         makeRequest(direction);
         return true;
     }
-
+	
+	// Refresh the data
     function onSelect() {
         makeRequest(direction);
         return true;
@@ -52,18 +48,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 
     function makeRequest(direction) {
     	notify.invoke("Executing\nRequest");
-    	
-    	var url;
-    	if (direction == 1) {
-			url = "http://www3.septa.org/hackathon/NextToArrive/Narberth/Suburban%20Station/1"; 
-			directionString = "Inbound";
-		}
-		else {
-			direction = 2;
-			url = "http://www3.septa.org/hackathon/NextToArrive/Suburban%20Station/Narberth/1";  
-			directionString = "Outbound";  
-		}
-        
+   		
+   		if (direction == null) { changeDirection(); }
+   		
+    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + removeSpaces(startStation) + "/" + removeSpaces(endStation) + "/1"; 
+		directionString = startStation + "-->" + endStation;
         
         Comm.makeWebRequest(
             url,
@@ -77,7 +66,34 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             method(:onReceive)
         );
     }
+    
+    function removeSpaces(word) {
+        var word1, word2;
+    	var wordLength = word.length();
+    	var space = word.find(" ");
+    	while (space != null) {
+    		word1 = word.substring(0, space) + "%20";
+    		word2 = word.substring(space + 1, wordLength);
+    		word = word1 + word2;
+    		space = word.find(" ");
+    		wordLength = word.length();
+    	}
+    	return word;
+    }
 
+    function changeDirection() {
+	    if (direction == 1) {
+	    		direction = 2;
+	    		startStation = station2;
+	    		endStation = station1;
+	    	}
+	    	else {
+	    		direction = 1;
+	    		startStation = station1;
+	    		endStation = station2;
+	    	}
+    }
+    
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
     	data = data[0]; //concert the array to a dictionary type
