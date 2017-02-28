@@ -43,14 +43,23 @@ class WebRequestView extends Ui.View {
         var clockTime = Sys.getClockTime();
         var ap;
         var hour = clockTime.hour; 
-        	if (hour > 12) {
+        	if (hour < 1) {
+        		hour = 12;
+        		ap = "AM";
+        	} 	
+        	else if (hour > 12) {
         		hour = hour - 12;
         		ap = "PM";
         	}
         	else {
-        		ap = "AM";
+        		if(hour > 11) {
+        			ap = "PM";
+        		}
+        		else {
+        			ap = "AM";
+        		}	
         	}	
-        var timeString = Lang.format("$1$:$2$ $3$", [hour, clockTime.min.format("%02d"), ap]);
+        var timeString = Lang.format("$1$:$2$:$3$ $4$", [hour, clockTime.min.format("%02d"), clockTime.sec.format("%02d"), ap]);
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
         

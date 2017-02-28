@@ -87,7 +87,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             	var delay = data_temp.get("orig_delay");
             	
             	if (delay.equals("On time")) {delay = 0;}
-            	else {delay = delay.substring(0, delay.find(" mins")).toNumber();}
+            	else {delay = delay.substring(0, delay.find(" min")).toNumber();}
 
             	data_out += Lang.format("$1$m     $2$ --> $3$\n",  
             		[delay.format("%02d"), 
