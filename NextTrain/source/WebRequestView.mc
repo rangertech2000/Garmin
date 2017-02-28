@@ -65,13 +65,15 @@ class WebRequestView extends Ui.View {
         
         var viewDirection = View.findDrawableById("DirectionLabel");
         viewDirection.setText(directionString);
+        
+        
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
+        //dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         //dc.clear();
-        dc.drawText(dc.getWidth()/2, 100, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+        //dc.drawText(dc.getWidth()/2, 100, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         
     }
 
@@ -90,11 +92,17 @@ class WebRequestView extends Ui.View {
             // Print the arguments duplicated and returned by httpbin.org
             System.println("args is a Dictionary type.");
             var keys = args.keys();
-            mMessage = "";
+            //mMessage = "";
             
-            for( var i = 0; i < keys.size(); i++ ) {
-                mMessage += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
-            }
+            //for( var i = 0; i < keys.size(); i++ ) {
+            //    mMessage += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
+            //}
+            var viewDepart = View.findDrawableById("DepartLabel");
+        	viewDepart.setText(args.get("Depart Time"));
+        
+        	var viewDelay = View.findDrawableById("DelayLabel");
+        	viewDelay.setText(args.get("Delay"));
+            
         }
         
         Ui.requestUpdate();

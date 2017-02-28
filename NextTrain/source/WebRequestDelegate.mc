@@ -50,7 +50,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
    		
    		if (direction == null) { changeDirection(); }
    		
-    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + removeSpaces(startStation) + "/" + removeSpaces(endStation) + "/1"; 
+    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/1"; 
 		directionString = startStation + "-->" + endStation;
         
         Comm.makeWebRequest(
@@ -66,10 +66,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         );
     }
     
-    function removeSpaces(word) {
+    function replaceSpaces(word) {
         var word1, word2;
     	var wordLength = word.length();
     	var space = word.find(" ");
+    	// Remove any spaces
     	while (space != null) {
     		word1 = word.substring(0, space) + "%20";
     		word2 = word.substring(space + 1, wordLength);
@@ -77,6 +78,23 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     		space = word.find(" ");
     		wordLength = word.length();
     	}
+    	return word;
+    }
+    
+        function formatTime(word) {
+        var word1, word2;
+    	var wordLength = word.length();
+    	var space = word.find(" ");
+    	// Remove any spaces
+    	while (space != null) {
+    		word1 = word.substring(0, space);
+    		word2 = word.substring(space + 1, wordLength);
+    		word = word1 + word2;
+    		space = word.find(" ");
+    		wordLength = word.length();
+    	}
+    	// Remove the trailing "M"
+    	word = word.substring(0, wordLength - 1); 
     	return word;
     }
 
@@ -95,9 +113,9 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	data = data[0]; //concert the array to a dictionary type
+    	data = data[0]; //convert the array to a dictionary type
     	
-    	var data_out = {"Depart Time"=>data.get("orig_departure_time")
+    	var data_out = {"Depart Time"=>formatTime(data.get("orig_departure_time"))
     		,"Delay"=>data.get("orig_delay")
     		//,"Direction"=>directionString
     		};
@@ -106,10 +124,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             System.println("data is a Dictionary.");
             System.println("Dictionary size: " + data.size());
             
-            //var keys = data.keys();
-            //for( var i = 0; i < keys.size(); i++ ) {
-            //    System.println(keys[i] + " : " + data[keys[i]]);
-            //}
+            var keys = data.keys();
+            for( var i = 0; i < keys.size(); i++ ) {
+                System.println(keys[i] + " : " + data[keys[i]]);
+            }
         } else if (data instanceof Lang.Array) {
             System.println("data is an Array.");
             System.println("Array size: " + data.size());

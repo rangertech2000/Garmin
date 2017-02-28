@@ -41,7 +41,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     function makeRequest(direction) {
     	notify.invoke("Executing\nRequest");
     	
-    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + removeSpaces(startStation) + "/" + removeSpaces(endStation) + "/20"; 
+    	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/20"; 
 		directionString = startStation + "-->" + endStation;
         
         Comm.makeWebRequest(
@@ -53,7 +53,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     }
 
 
-    function removeSpaces(word) {
+    function replaceSpaces(word) {
         var word1, word2;
     	var wordLength = word.length();
     	var space = word.find(" ");
