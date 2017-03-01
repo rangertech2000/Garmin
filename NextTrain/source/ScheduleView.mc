@@ -58,7 +58,7 @@ class ScheduleView extends Ui.View {
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         //dc.clear();
-        dc.drawText(10, 0, Gfx.FONT_SMALL, mMessage, Gfx.TEXT_JUSTIFY_LEFT);
+        dc.drawText(0, 0, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_LEFT);
         
     }
 

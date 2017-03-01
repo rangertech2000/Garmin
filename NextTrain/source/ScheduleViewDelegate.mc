@@ -72,7 +72,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	var data_out = "Delay    Depart          Arrive\n";
+    	var data_text = "Delay  Depart      Arrive\n";
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
@@ -89,7 +89,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             	if (delay.equals("On time")) {delay = 0;}
             	else {delay = delay.substring(0, delay.find(" min")).toNumber();}
 
-            	data_out += Lang.format("$1$m     $2$ --> $3$\n",  
+            	data_text += Lang.format("$1$m $2$-->$3$\n",  
             		[delay.format("%02d"), 
             		data_temp.get("orig_departure_time"), 
             		data_temp.get("orig_arrival_time")]
@@ -99,7 +99,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
 
         if (responseCode == 200) {
         	System.println("reponseCode: " + responseCode);
-            notify.invoke(data_out);
+            notify.invoke(data_text);
         } else {
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }

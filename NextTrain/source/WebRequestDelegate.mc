@@ -115,8 +115,13 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) { 
     	data = data[0]; //convert the array to a dictionary type
     	
-    	var data_out = {"Depart Time"=>formatTime(data.get("orig_departure_time"))
-    		,"Delay"=>data.get("orig_delay")
+    	var delay = data.get("orig_delay");
+    	if (!delay.equals("On time")) {
+    		delay = delay + " delayed";
+    	}
+            	
+    	var data_text = {"Depart Time"=>formatTime(data.get("orig_departure_time"))
+    		,"Delay"=>delay
     		//,"Direction"=>directionString
     		};
     	    	
@@ -137,7 +142,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         if (responseCode == 200) {
         	System.println("reponseCode: " + responseCode);
             //notify.invoke(data["orig_line"]);
-            notify.invoke(data_out);
+            notify.invoke(data_text);
         } else {
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }
