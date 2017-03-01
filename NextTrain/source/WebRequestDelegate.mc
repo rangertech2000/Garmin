@@ -113,37 +113,45 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	data = data[0]; //convert the array to a dictionary type
-    	
-    	var delay = data.get("orig_delay");
-    	if (!delay.equals("On time")) {
-    		delay = delay + " delayed";
-    	}
-            	
-    	var data_text = {"Depart Time"=>formatTime(data.get("orig_departure_time"))
-    		,"Delay"=>delay
-    		//,"Direction"=>directionString
-    		};
-    	    	
-      	if (data instanceof Lang.Dictionary) {
-            System.println("data is a Dictionary.");
-            System.println("Dictionary size: " + data.size());
-            
-            var keys = data.keys();
-            for( var i = 0; i < keys.size(); i++ ) {
-                System.println(keys[i] + " : " + data[keys[i]]);
-            }
-        } else if (data instanceof Lang.Array) {
-            System.println("data is an Array.");
-            System.println("Array size: " + data.size());
-            System.println(data[0]);
-        }      	
-
-        if (responseCode == 200) {
+		if (responseCode == 200) {
         	System.println("reponseCode: " + responseCode);
-            //notify.invoke(data["orig_line"]);
+        	
+        	var data_text = "";
+        	
+	      	if (data instanceof Lang.Dictionary) {
+	            System.println("data is a Dictionary.");
+	            System.println("Dictionary size: " + data.size());
+	            
+	            var keys = data.keys();
+	            for( var i = 0; i < keys.size(); i++ ) {
+	                System.println(keys[i] + " : " + data[keys[i]]);
+	            }
+	        } 
+	        else if (data instanceof Lang.Array) {
+	            System.println("data is an Array.");
+	            System.println("Array size: " + data.size());
+	            //System.println(data[0]);
+	            
+	            if (data.size() > 0) {    	
+		    		data = data[0]; //convert the array to a dictionary type
+		    	
+			    	var delay = data.get("orig_delay");
+			    	if (!delay.equals("On time")) {
+			    		delay = delay + " delayed";
+			    	}
+			            	
+			    	data_text = {
+			    	"Depart Time"=>formatTime(data.get("orig_departure_time"))
+			    	,"Delay"=>delay
+			    	};
+		    	}
+		    	else {
+		    		data_text = "No trains available";
+		    	}    	
+	        }      	
             notify.invoke(data_text);
-        } else {
+        } 
+        else {
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }
     }

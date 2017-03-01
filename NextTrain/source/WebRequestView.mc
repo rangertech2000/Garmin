@@ -83,10 +83,14 @@ class WebRequestView extends Ui.View {
     }
 
     function onReceive(args) {
+    	var viewDepart = View.findDrawableById("DepartLabel");
+    	var viewDelay = View.findDrawableById("DelayLabel");
+    
         if (args instanceof Lang.String) {
         	System.println("args is a String type.");
         	System.println("args: " + args.toString());
-            mMessage = args;
+        	//mMessage = args;
+            viewDelay.setText(args);
         }
         else if (args instanceof Lang.Dictionary) {
             // Print the arguments duplicated and returned by httpbin.org
@@ -97,10 +101,8 @@ class WebRequestView extends Ui.View {
             //for( var i = 0; i < keys.size(); i++ ) {
             //    mMessage += Lang.format("$1$: $2$\n", [keys[i], args[keys[i]]]);
             //}
-            var viewDepart = View.findDrawableById("DepartLabel");
+            
         	viewDepart.setText(args.get("Depart Time"));
-        
-        	var viewDelay = View.findDrawableById("DelayLabel");
         	viewDelay.setText(args.get("Delay"));
             
         }
