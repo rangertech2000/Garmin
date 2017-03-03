@@ -14,7 +14,7 @@ class ScheduleView extends Ui.View {
 
     function initialize() {
         Ui.View.initialize();
-        Message = "Retrieving data...";
+        mMessage = "Retrieving data...";
     }
 
     // Load your resources here

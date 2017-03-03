@@ -46,7 +46,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     }
 
     function makeRequest(direction) {
-    	notify.invoke("Executing\nRequest");
+    	notify.invoke("Executing Request");
    		
    		if (direction == null) { changeDirection(); }
    		

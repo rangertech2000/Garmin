@@ -6,8 +6,7 @@
 
 using Toybox.Application as App;
 var direction, directionString;
-var station1 = "Narberth";
-var station2 = "Suburban Station";
+var station1, station2;
 var startStation, endStation;
     
 class WebRequestApp extends App.AppBase {
@@ -15,6 +14,19 @@ class WebRequestApp extends App.AppBase {
 
     function initialize() {
         App.AppBase.initialize();
+        
+        station1 = App.getApp().getProperty("station1"); 
+        if(station1 == null) {
+            station1 = "Narberth";
+        }
+        
+        station2 = App.getApp().getProperty("station2"); 
+        if(station2 == null) {
+            station2 = "Suburban Station";
+        }
+        
+        System.println(station1);
+        System.println(station2); 
     }
 
     // onStart() is called on application start up
