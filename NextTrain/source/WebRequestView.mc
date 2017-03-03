@@ -65,9 +65,7 @@ class WebRequestView extends Ui.View {
         
         var viewDirection = View.findDrawableById("DirectionLabel");
         viewDirection.setText(directionString);
-        
-        
-
+              
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
@@ -103,8 +101,7 @@ class WebRequestView extends Ui.View {
             //}
             
         	viewDepart.setText(args.get("Depart Time"));
-        	viewDelay.setText(args.get("Delay"));
-            
+        	viewDelay.setText(args.get("Delay"));        
         }
         
         Ui.requestUpdate();

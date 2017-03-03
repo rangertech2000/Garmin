@@ -1,9 +1,3 @@
-//
-// Copyright 2016 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
@@ -17,7 +11,6 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onMenu() {
     	sView = new ScheduleView();
     	Ui.pushView(sView, new ScheduleViewDelegate(sView.method(:onReceive)), Ui.SLIDE_UP );
-    	//Ui.pushView(sView, new ScheduleViewDelegate(), Ui.SLIDE_UP );
     	return true;
     }
     
