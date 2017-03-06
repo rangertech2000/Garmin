@@ -1,9 +1,4 @@
-//
-// Copyright 2015-2016 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
+using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
@@ -15,6 +10,22 @@ class WebRequestView extends Ui.View {
     
     function initialize() {
         Ui.View.initialize();
+        
+        station1 = App.getApp().getProperty("station1"); 
+        if(station1 == null) {
+            station1 = "Narberth";
+        }
+        else {
+        	startStation = station1;
+        }
+        	
+        station2 = App.getApp().getProperty("station2"); 
+        if(station2 == null) {
+            station2 = "Suburban Station";
+        }
+        else {
+        	endStation = station2;
+        }	
     }
 
     // Load your resources here

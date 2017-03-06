@@ -1,3 +1,4 @@
+using Toybox.Application as App;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
@@ -5,7 +6,8 @@ class Station1Chooser extends Ui.Picker {
 
     function initialize() {
         var title = new Ui.Text({:text=>Rez.Strings.Station1ChooserTitle, :locX =>Ui.LAYOUT_HALIGN_CENTER, :locY=>Ui.LAYOUT_VALIGN_BOTTOM, :color=>Gfx.COLOR_WHITE});
-        var factory = new WordFactory([Rez.Strings.pickerChooserColor, Rez.Strings.pickerChooserDate, Rez.Strings.pickerChooserString, Rez.Strings.pickerChooserTime, Rez.Strings.pickerChooserLayout], {:font=>Gfx.FONT_MEDIUM});
+        //var factory = new WordFactory([Rez.Strings.pickerChooserColor, Rez.Strings.pickerChooserDate, Rez.Strings.pickerChooserString, Rez.Strings.pickerChooserTime, Rez.Strings.pickerChooserLayout], {:font=>Gfx.FONT_MEDIUM});
+        var factory = new WordFactory(["Narberth", "Merion", "Overbrook", "Wissahickon"], {:font=>Gfx.FONT_MEDIUM});
         Picker.initialize({:title=>title, :pattern=>[factory]});
     }
 
@@ -17,27 +19,15 @@ class Station1Chooser extends Ui.Picker {
 }
 
 class Station1ChooserDelegate extends Ui.PickerDelegate {
-
+	hidden var wView;
+	
     function onCancel() {
-        Ui.popView(Ui.SLIDE_IMMEDIATE);
+        System.exit();
     }
 
     function onAccept(values) {
-        if(values[0] == Rez.Strings.pickerChooserColor) {
-            Ui.pushView(new ColorPicker(), new ColorPickerDelegate(), Ui.SLIDE_IMMEDIATE);
-        }
-        else if(values[0] == Rez.Strings.pickerChooserDate) {
-            Ui.pushView(new DatePicker(), new DatePickerDelegate(), Ui.SLIDE_IMMEDIATE);
-        }
-        else if(values[0] == Rez.Strings.pickerChooserString) {
-            var picker = new StringPicker();
-            Ui.pushView(picker, new StringPickerDelegate(picker), Ui.SLIDE_IMMEDIATE);
-        }
-        else if(values[0] == Rez.Strings.pickerChooserTime) {
-            Ui.pushView(new TimePicker(), new TimePickerDelegate(), Ui.SLIDE_IMMEDIATE);
-        }
-        else if(values[0] == Rez.Strings.pickerChooserLayout) {
-            Ui.pushView(new LayoutPicker(), new LayoutPickerDelegate(), Ui.SLIDE_IMMEDIATE);
-        }
+    	App.getApp().setProperty("station1", values[0]); 
+    	wView = new WebRequestView();
+    	Ui.pushView(wView, new WebRequestDelegate(wView.method(:onReceive)), Ui.SLIDE_IMMEDIATE);
     }
 }

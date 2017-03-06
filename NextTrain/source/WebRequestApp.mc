@@ -8,16 +8,6 @@ class WebRequestApp extends App.AppBase {
 
     function initialize() {
         App.AppBase.initialize();
-        
-        station1 = App.getApp().getProperty("station1"); 
-        if(station1 == null) {
-            station1 = "Narberth";
-        }
-        
-        station2 = App.getApp().getProperty("station2"); 
-        if(station2 == null) {
-            station2 = "Suburban Station";
-        }
     }
 
     // onStart() is called on application start up
