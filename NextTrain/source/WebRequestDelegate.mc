@@ -15,9 +15,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     }
     
     function onBack() {
-    	//System.exit();
-    	
-    	Ui.pushView(new Station1Chooser(), new Station1ChooserDelegate(), Ui.SLIDE_IMMEDIATE);
+    	System.exit();
     	return true;
     }
     

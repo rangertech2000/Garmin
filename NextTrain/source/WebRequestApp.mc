@@ -7,7 +7,7 @@ class WebRequestApp extends App.AppBase {
     hidden var mView;
 
     function initialize() {
-        App.AppBase.initialize();
+        App.AppBase.initialize();  
     }
 
     // onStart() is called on application start up

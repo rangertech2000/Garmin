@@ -11,6 +11,7 @@ class WebRequestView extends Ui.View {
     function initialize() {
         Ui.View.initialize();
         
+        //App.getApp().setProperty("station1", "Narberth");
         station1 = App.getApp().getProperty("station1"); 
         if(station1 == null) {
             station1 = "Narberth";

@@ -1,434 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="8" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="9" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="11" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="13" pc="268435488" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="14" pc="268435495" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="17" pc="268435522" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="18" pc="268435535" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="22" pc="268435559" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="23" pc="268435563" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="24" pc="268435577" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="25" pc="268435607" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="26" pc="268435647" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="31" pc="268435669" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="32" pc="268435699" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="33" pc="268435724" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="38" pc="268435743" symbol="getIndex"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="41" pc="268435750" symbol="getSize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="42" pc="268435754" symbol="getSize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="45" pc="268435773" symbol="getValue"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="46" pc="268435777" symbol="getValue"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="49" pc="268435790" symbol="getDrawable"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WordFactory.mc" lineNum="50" pc="268435794" symbol="getDrawable"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="11" pc="268435923" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="12" pc="268435927" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="14" pc="268435949" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="15" pc="268435986" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="16" pc="268435999" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="19" pc="268436015" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="22" pc="268436031" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="23" pc="268436068" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="24" pc="268436081" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="27" pc="268436097" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="32" pc="268436114" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="33" pc="268436118" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="35" pc="268436155" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="38" pc="268436168" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="40" pc="268436214" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="42" pc="268436232" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="47" pc="268436260" symbol="onShow"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="51" pc="268436265" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="54" pc="268436269" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="55" pc="268436286" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="56" pc="268436286" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="57" pc="268436296" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="58" pc="268436307" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="59" pc="268436314" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="62" pc="268436335" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="63" pc="268436345" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="66" pc="268436355" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="67" pc="268436366" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="70" pc="268436376" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="73" pc="268436383" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="74" pc="268436491" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="75" pc="268436515" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="77" pc="268436529" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="78" pc="268436553" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="81" pc="268436573" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="91" pc="268436594" symbol="onHide"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="94" pc="268436599" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="95" pc="268436603" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="96" pc="268436627" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="98" pc="268436651" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="99" pc="268436669" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="100" pc="268436692" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="102" pc="268436727" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="106" pc="268436762" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="107" pc="268436785" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="114" pc="268436798" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="115" pc="268436826" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="118" pc="268436857" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="11" pc="268436874" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="12" pc="268436878" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="13" pc="268436908" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="14" pc="268436988" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="17" pc="268436992" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="20" pc="268436996" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="21" pc="268437068" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="25" pc="268437072" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="26" pc="268437076" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="27" pc="268437088" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="28" pc="268437108" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="32" pc="268437112" symbol="onSelect"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="33" pc="268437116" symbol="onSelect"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="34" pc="268437136" symbol="onSelect"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="38" pc="268437140" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="39" pc="268437144" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="40" pc="268437166" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="43" pc="268437177" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="44" pc="268437181" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="46" pc="268437204" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="46" pc="268437211" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="48" pc="268437226" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="49" pc="268437285" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="51" pc="268437316" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="64" pc="268437383" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="65" pc="268437387" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="66" pc="268437387" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="67" pc="268437400" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="69" pc="268437418" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="70" pc="268437425" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="71" pc="268437451" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="72" pc="268437474" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="73" pc="268437481" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="74" pc="268437499" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="76" pc="268437515" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="79" pc="268437519" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="80" pc="268437523" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="81" pc="268437523" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="82" pc="268437536" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="84" pc="268437554" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="85" pc="268437561" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="86" pc="268437581" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="87" pc="268437604" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="88" pc="268437611" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="89" pc="268437629" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="92" pc="268437645" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="93" pc="268437671" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="96" pc="268437675" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="97" pc="268437679" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="98" pc="268437696" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="99" pc="268437709" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="100" pc="268437725" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="103" pc="268437744" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="104" pc="268437757" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="105" pc="268437773" symbol="changeDirection"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="110" pc="268437790" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="111" pc="268437794" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="112" pc="268437805" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="114" pc="268437829" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="116" pc="268437836" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="117" pc="268437856" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="118" pc="268437877" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="120" pc="268437910" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="121" pc="268437923" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="122" pc="268437947" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="126" pc="268438019" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="127" pc="268438040" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="130" pc="268438073" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="131" pc="268438093" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="133" pc="268438103" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="134" pc="268438121" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="135" pc="268438141" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="138" pc="268438154" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="144" pc="268438210" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="147" pc="268438220" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="150" pc="268438243" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="9" pc="268438279" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="10" pc="268438283" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="14" pc="268438306" symbol="onStart"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="18" pc="268438311" symbol="onStop"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="22" pc="268438316" symbol="getInitialView"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="23" pc="268438320" symbol="getInitialView"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="24" pc="268438350" symbol="getInitialView"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="7" pc="268438426" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="8" pc="268438430" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="9" pc="268438552" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="10" pc="268438660" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="13" pc="268438719" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="14" pc="268438723" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="15" pc="268438759" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="16" pc="268438771" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="23" pc="268438792" symbol="onCancel"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="24" pc="268438796" symbol="onCancel"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="27" pc="268438815" symbol="onAccept"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="28" pc="268438819" symbol="onAccept"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="29" pc="268438857" symbol="onAccept"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\Station1Chooser.mc" lineNum="30" pc="268438887" symbol="onAccept"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="10" pc="268438969" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="11" pc="268438973" symbol="onMenu"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="14" pc="268438977" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="16" pc="268438981" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="17" pc="268439005" symbol="onBack"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="20" pc="268439009" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="21" pc="268439013" symbol="onKey"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="24" pc="268439017" symbol="onSelect"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="25" pc="268439021" symbol="onSelect"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="29" pc="268439025" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="30" pc="268439029" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="31" pc="268439051" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="34" pc="268439062" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="35" pc="268439066" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="37" pc="268439089" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="38" pc="268439148" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="40" pc="268439179" symbol="makeRequest"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="49" pc="268439246" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="50" pc="268439250" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="51" pc="268439250" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="52" pc="268439263" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="54" pc="268439281" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="55" pc="268439288" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="56" pc="268439314" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="57" pc="268439337" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="59" pc="268439344" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="60" pc="268439362" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="62" pc="268439378" symbol="replaceSpaces"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="65" pc="268439382" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="66" pc="268439386" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="67" pc="268439386" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="68" pc="268439399" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="70" pc="268439417" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="71" pc="268439424" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="72" pc="268439444" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="73" pc="268439467" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="74" pc="268439474" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="75" pc="268439492" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="78" pc="268439508" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="79" pc="268439534" symbol="formatTime"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="84" pc="268439538" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="85" pc="268439542" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="87" pc="268439549" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="88" pc="268439569" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="89" pc="268439590" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="92" pc="268439646" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="93" pc="268439667" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="95" pc="268439700" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="96" pc="268439724" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="97" pc="268439731" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268439749" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268439768" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="100" pc="268439778" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="102" pc="268439821" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="110" pc="268439964" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="111" pc="268439975" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="112" pc="268439999" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="114" pc="268440022" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="9" pc="268440058" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="10" pc="268440062" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="11" pc="268440084" symbol="initialize"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="15" pc="268440098" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="16" pc="268440102" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="18" pc="268440139" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="21" pc="268440152" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="23" pc="268440198" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="25" pc="268440216" symbol="onLayout"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="29" pc="268440244" symbol="onShow"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="33" pc="268440249" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="36" pc="268440253" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="37" pc="268440270" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="38" pc="268440270" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="39" pc="268440280" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="40" pc="268440291" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="41" pc="268440301" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="44" pc="268440311" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="46" pc="268440318" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="47" pc="268440396" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="48" pc="268440420" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="51" pc="268440434" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="53" pc="268440454" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="55" pc="268440490" symbol="onUpdate"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="61" pc="268440545" symbol="onHide"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="64" pc="268440550" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="65" pc="268440554" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="66" pc="268440572" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="67" pc="268440595" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="68" pc="268440630" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="72" pc="268440661" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="73" pc="268440684" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="74" pc="268440697" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="76" pc="268440710" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="78" pc="268440734" symbol="onReceive"/>
-<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="82" pc="268440778" symbol="onReceive"/>
-<entry filename="Rez" lineNum="19" pc="268440795" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268440799" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268440962" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268440987" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268441039" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268441187" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="26" pc="268441212" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="27" pc="268441264" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="28" pc="268441412" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="29" pc="268441437" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="30" pc="268441489" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="31" pc="268441637" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="32" pc="268441662" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="35" pc="268441714" symbol="WatchFace"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="15" pc="268435482" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="16" pc="268435519" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="17" pc="268435532" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="20" pc="268435548" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="23" pc="268435564" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="24" pc="268435601" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="25" pc="268435614" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="28" pc="268435630" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="33" pc="268435647" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="34" pc="268435651" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="36" pc="268435688" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="39" pc="268435701" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="41" pc="268435747" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="43" pc="268435765" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="48" pc="268435793" symbol="onShow"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="52" pc="268435798" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="55" pc="268435802" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="56" pc="268435819" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="57" pc="268435819" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="58" pc="268435829" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="59" pc="268435840" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="60" pc="268435847" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="63" pc="268435868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="64" pc="268435878" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="67" pc="268435888" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="68" pc="268435899" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="71" pc="268435909" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="74" pc="268435916" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="75" pc="268436024" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="76" pc="268436048" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="78" pc="268436062" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="79" pc="268436086" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="82" pc="268436106" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="92" pc="268436127" symbol="onHide"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="95" pc="268436132" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="96" pc="268436136" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="97" pc="268436160" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="99" pc="268436184" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="100" pc="268436202" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="101" pc="268436225" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="103" pc="268436260" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="107" pc="268436295" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="108" pc="268436318" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="115" pc="268436331" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="116" pc="268436359" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestView.mc" lineNum="119" pc="268436390" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="11" pc="268436407" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="12" pc="268436411" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="13" pc="268436441" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="14" pc="268436521" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="17" pc="268436525" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="18" pc="268436529" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="19" pc="268436545" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="23" pc="268436549" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="24" pc="268436553" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="25" pc="268436565" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="26" pc="268436585" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="30" pc="268436589" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="31" pc="268436593" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="32" pc="268436613" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="36" pc="268436617" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="37" pc="268436621" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="38" pc="268436643" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="41" pc="268436654" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="42" pc="268436658" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="44" pc="268436681" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="44" pc="268436688" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="46" pc="268436703" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="47" pc="268436762" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="49" pc="268436793" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="62" pc="268436860" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="63" pc="268436864" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="64" pc="268436864" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="65" pc="268436877" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="67" pc="268436895" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="68" pc="268436902" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="69" pc="268436928" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="70" pc="268436951" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="71" pc="268436958" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="72" pc="268436976" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="74" pc="268436992" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="77" pc="268436996" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="78" pc="268437000" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="79" pc="268437000" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="80" pc="268437013" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="82" pc="268437031" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="83" pc="268437038" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="84" pc="268437058" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="85" pc="268437081" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="86" pc="268437088" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="87" pc="268437106" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="90" pc="268437122" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="91" pc="268437148" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="94" pc="268437152" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="95" pc="268437156" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="96" pc="268437173" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="97" pc="268437186" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="98" pc="268437202" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="101" pc="268437221" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="102" pc="268437234" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="103" pc="268437250" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="108" pc="268437267" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="109" pc="268437271" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="110" pc="268437282" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="112" pc="268437306" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="114" pc="268437313" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="115" pc="268437333" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="116" pc="268437354" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="118" pc="268437387" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="119" pc="268437400" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="120" pc="268437424" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="124" pc="268437496" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="125" pc="268437517" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="128" pc="268437550" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="129" pc="268437570" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="131" pc="268437580" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="132" pc="268437598" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="133" pc="268437618" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="136" pc="268437631" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="142" pc="268437687" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="145" pc="268437697" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="148" pc="268437720" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="9" pc="268437756" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="10" pc="268437760" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="14" pc="268437783" symbol="onStart"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="18" pc="268437788" symbol="onStop"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="22" pc="268437793" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="23" pc="268437797" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\WebRequestApp.mc" lineNum="24" pc="268437827" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="10" pc="268437903" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="11" pc="268437907" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="14" pc="268437911" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="16" pc="268437915" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="17" pc="268437939" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="20" pc="268437943" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="21" pc="268437947" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="24" pc="268437951" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="25" pc="268437955" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="29" pc="268437959" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="30" pc="268437963" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="31" pc="268437985" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="34" pc="268437996" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="35" pc="268438000" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="37" pc="268438023" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="38" pc="268438082" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="40" pc="268438113" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="49" pc="268438180" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="50" pc="268438184" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="51" pc="268438184" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="52" pc="268438197" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="54" pc="268438215" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="55" pc="268438222" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="56" pc="268438248" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="57" pc="268438271" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="59" pc="268438278" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="60" pc="268438296" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="62" pc="268438312" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="65" pc="268438316" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="66" pc="268438320" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="67" pc="268438320" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="68" pc="268438333" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="70" pc="268438351" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="71" pc="268438358" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="72" pc="268438378" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="73" pc="268438401" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="74" pc="268438408" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="75" pc="268438426" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="78" pc="268438442" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="79" pc="268438468" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="84" pc="268438472" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="85" pc="268438476" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="87" pc="268438483" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="88" pc="268438503" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="89" pc="268438524" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="92" pc="268438580" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="93" pc="268438601" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="95" pc="268438634" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="96" pc="268438658" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="97" pc="268438665" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268438683" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268438702" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="100" pc="268438712" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="102" pc="268438755" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="110" pc="268438898" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="111" pc="268438909" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="112" pc="268438933" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="114" pc="268438956" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="9" pc="268438992" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="10" pc="268438996" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="11" pc="268439018" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="15" pc="268439032" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="16" pc="268439036" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="18" pc="268439073" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="21" pc="268439086" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="23" pc="268439132" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="25" pc="268439150" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="29" pc="268439178" symbol="onShow"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="33" pc="268439183" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="36" pc="268439187" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="37" pc="268439204" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="38" pc="268439204" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="39" pc="268439214" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="40" pc="268439225" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="41" pc="268439235" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="44" pc="268439245" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="46" pc="268439252" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="47" pc="268439330" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="48" pc="268439354" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="51" pc="268439368" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="53" pc="268439388" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="55" pc="268439424" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="61" pc="268439479" symbol="onHide"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="64" pc="268439484" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="65" pc="268439488" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="66" pc="268439506" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="67" pc="268439529" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="68" pc="268439564" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="72" pc="268439595" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="73" pc="268439618" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="74" pc="268439631" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="76" pc="268439644" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="78" pc="268439668" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\NextTrain\\NextTrain\\source\\ScheduleView.mc" lineNum="82" pc="268439712" symbol="onReceive"/>
+<entry filename="Rez" lineNum="19" pc="268439729" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268439733" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268439896" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268439921" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268439973" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268440121" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268440146" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268440198" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268440346" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268440371" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268440423" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="31" pc="268440571" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268440596" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268440648" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="12" symbol="directionString"/>
+<entry field="true" id="11" symbol="directionString"/>
 <entry id="8388644" symbol="System"/>
-<entry id="32" method="true" symbol="getIndex"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="8389642" symbol="title"/>
-<entry id="8389629" method="true" symbol="getValue"/>
-<entry id="28" method="true" symbol="replaceSpaces"/>
-<entry field="true" id="11" symbol="direction"/>
+<entry id="21" method="true" symbol="replaceSpaces"/>
+<entry field="true" id="10" symbol="direction"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry field="true" id="31" symbol="mWords"/>
-<entry id="18" object="true" symbol="Station1Chooser"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
-<entry id="19" object="true" symbol="Station1ChooserDelegate"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry id="8" object="true" symbol="WordFactory"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="8389128" symbol="mFont"/>
 <entry id="8388640" symbol="Lang"/>
-<entry id="20" object="true" symbol="ScheduleViewDelegate"/>
+<entry id="17" object="true" symbol="ScheduleViewDelegate"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="8389626" method="true" symbol="onAccept"/>
 <entry id="8389115" symbol="mMessage"/>
-<entry field="true" id="16" symbol="endStation"/>
+<entry field="true" id="15" symbol="endStation"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="36" symbol="AppName"/>
-<entry id="29" method="true" symbol="formatTime"/>
-<entry id="27" method="true" symbol="makeRequest"/>
+<entry field="true" id="28" symbol="AppName"/>
+<entry id="22" method="true" symbol="formatTime"/>
+<entry id="20" method="true" symbol="makeRequest"/>
 <entry id="8389375" method="true" symbol="WatchFace"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
-<entry field="true" id="35" symbol="LauncherIcon"/>
-<entry field="true" id="37" symbol="Station1ChooserTitle"/>
-<entry field="true" id="15" symbol="startStation"/>
+<entry field="true" id="27" symbol="LauncherIcon"/>
+<entry field="true" id="29" symbol="Station1ChooserTitle"/>
+<entry field="true" id="14" symbol="startStation"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389065" symbol="locY"/>
 <entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry id="17" object="true" symbol="WebRequestApp"/>
-<entry id="9" object="true" symbol="WebRequestView"/>
+<entry id="16" object="true" symbol="WebRequestApp"/>
+<entry id="8" object="true" symbol="WebRequestView"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="25" symbol="notify"/>
+<entry field="true" id="19" symbol="notify"/>
 <entry id="8389348" symbol="font"/>
-<entry id="10" object="true" symbol="WebRequestDelegate"/>
-<entry id="26" symbol="sView"/>
+<entry id="9" object="true" symbol="WebRequestDelegate"/>
+<entry id="30" symbol="sView"/>
 <entry id="8389347" symbol="color"/>
-<entry id="23" symbol="mModel"/>
-<entry id="30" method="true" symbol="changeDirection"/>
-<entry id="22" symbol="wView"/>
-<entry id="34" module="true" symbol="Layouts"/>
+<entry id="32" symbol="mModel"/>
+<entry id="31" method="true" symbol="changeDirection"/>
+<entry id="26" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="14" symbol="station2"/>
-<entry field="true" id="13" symbol="station1"/>
-<entry id="8389628" method="true" symbol="getDrawable"/>
-<entry id="8389346" symbol="text"/>
+<entry field="true" id="13" symbol="station2"/>
+<entry field="true" id="12" symbol="station1"/>
 <entry id="8389063" symbol="identifier"/>
-<entry id="21" object="true" symbol="ScheduleView"/>
-<entry id="33" module="true" symbol="Menus"/>
-<entry id="8389643" symbol="pattern"/>
-<entry id="24" method="true" symbol="onReceive"/>
+<entry id="18" object="true" symbol="ScheduleView"/>
+<entry id="25" module="true" symbol="Menus"/>
+<entry id="23" method="true" symbol="onReceive"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
-<entry id="8389630" method="true" symbol="getSize"/>
-<entry id="8389541" method="true" symbol="onCancel"/>
-<entry id="38" symbol="mView"/>
+<entry id="24" symbol="mView"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435666" name="i" stackId="2" startPc="268435607"/>
-<entry endPc="268435743" name="i" stackId="3" startPc="268435699"/>
-<entry endPc="268436259" name="m" stackId="3" startPc="268436118"/>
-<entry endPc="268436259" name="v" stackId="2" startPc="268436118"/>
-<entry endPc="268436593" name="view" stackId="6" startPc="268436269"/>
-<entry endPc="268436593" name="hour" stackId="4" startPc="268436269"/>
-<entry endPc="268436593" name="ap" stackId="3" startPc="268436269"/>
-<entry endPc="268436593" name="timeString" stackId="5" startPc="268436269"/>
-<entry endPc="268436593" name="viewDirection" stackId="7" startPc="268436269"/>
-<entry endPc="268436593" name="clockTime" stackId="2" startPc="268436269"/>
-<entry endPc="268436854" name="keys" stackId="4" startPc="268436762"/>
-<entry endPc="268436873" name="viewDelay" stackId="3" startPc="268436603"/>
-<entry endPc="268436873" name="viewDepart" stackId="2" startPc="268436603"/>
-<entry endPc="268437382" name="url" stackId="2" startPc="268437181"/>
-<entry endPc="268437518" name="wordLength" stackId="4" startPc="268437387"/>
-<entry endPc="268437518" name="space" stackId="5" startPc="268437387"/>
-<entry endPc="268437518" name="word2" stackId="3" startPc="268437387"/>
-<entry endPc="268437518" name="word1" stackId="2" startPc="268437387"/>
-<entry endPc="268437674" name="wordLength" stackId="4" startPc="268437523"/>
-<entry endPc="268437674" name="space" stackId="5" startPc="268437523"/>
-<entry endPc="268437674" name="word2" stackId="3" startPc="268437523"/>
-<entry endPc="268437674" name="word1" stackId="2" startPc="268437523"/>
-<entry endPc="268437996" name="i" stackId="5" startPc="268437947"/>
-<entry endPc="268437996" name="keys" stackId="4" startPc="268437856"/>
-<entry endPc="268438207" name="delay" stackId="6" startPc="268438093"/>
-<entry endPc="268438240" name="data_text" stackId="3" startPc="268437805"/>
-<entry endPc="268438718" name="factory" stackId="2" startPc="268438430"/>
-<entry endPc="268438718" name="title" stackId="1" startPc="268438430"/>
-<entry endPc="268439245" name="url" stackId="2" startPc="268439066"/>
-<entry endPc="268439381" name="wordLength" stackId="4" startPc="268439250"/>
-<entry endPc="268439381" name="space" stackId="5" startPc="268439250"/>
-<entry endPc="268439381" name="word2" stackId="3" startPc="268439250"/>
-<entry endPc="268439381" name="word1" stackId="2" startPc="268439250"/>
-<entry endPc="268439537" name="wordLength" stackId="4" startPc="268439386"/>
-<entry endPc="268439537" name="space" stackId="5" startPc="268439386"/>
-<entry endPc="268439537" name="word2" stackId="3" startPc="268439386"/>
-<entry endPc="268439537" name="word1" stackId="2" startPc="268439386"/>
-<entry endPc="268439948" name="delay" stackId="6" startPc="268439724"/>
-<entry endPc="268439948" name="data_temp" stackId="5" startPc="268439724"/>
-<entry endPc="268439961" name="i" stackId="4" startPc="268439724"/>
-<entry endPc="268440057" name="data_text" stackId="3" startPc="268439542"/>
-<entry endPc="268440243" name="m" stackId="3" startPc="268440102"/>
-<entry endPc="268440243" name="v" stackId="2" startPc="268440102"/>
-<entry endPc="268440544" name="view" stackId="6" startPc="268440253"/>
-<entry endPc="268440544" name="hour" stackId="4" startPc="268440253"/>
-<entry endPc="268440544" name="ap" stackId="3" startPc="268440253"/>
-<entry endPc="268440544" name="timeString" stackId="5" startPc="268440253"/>
-<entry endPc="268440544" name="clockTime" stackId="2" startPc="268440253"/>
-<entry endPc="268440775" name="i" stackId="3" startPc="268440734"/>
-<entry endPc="268440775" name="keys" stackId="2" startPc="268440661"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DepartLabel_fontHeight" stackId="7" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DirectionLabel" stackId="4" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DepartLabel" stackId="6" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DelayLabel" stackId="8" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DirectionLabel_fontHeight" stackId="5" startPc="268440799"/>
-<entry endPc="268441761" name="rez_cmp_local_bitmap_DelayLabel_fontHeight" stackId="9" startPc="268440799"/>
+<entry endPc="268435792" name="m" stackId="3" startPc="268435651"/>
+<entry endPc="268435792" name="v" stackId="2" startPc="268435651"/>
+<entry endPc="268436126" name="view" stackId="6" startPc="268435802"/>
+<entry endPc="268436126" name="hour" stackId="4" startPc="268435802"/>
+<entry endPc="268436126" name="ap" stackId="3" startPc="268435802"/>
+<entry endPc="268436126" name="timeString" stackId="5" startPc="268435802"/>
+<entry endPc="268436126" name="viewDirection" stackId="7" startPc="268435802"/>
+<entry endPc="268436126" name="clockTime" stackId="2" startPc="268435802"/>
+<entry endPc="268436387" name="keys" stackId="4" startPc="268436295"/>
+<entry endPc="268436406" name="viewDelay" stackId="3" startPc="268436136"/>
+<entry endPc="268436406" name="viewDepart" stackId="2" startPc="268436136"/>
+<entry endPc="268436859" name="url" stackId="2" startPc="268436658"/>
+<entry endPc="268436995" name="wordLength" stackId="4" startPc="268436864"/>
+<entry endPc="268436995" name="space" stackId="5" startPc="268436864"/>
+<entry endPc="268436995" name="word2" stackId="3" startPc="268436864"/>
+<entry endPc="268436995" name="word1" stackId="2" startPc="268436864"/>
+<entry endPc="268437151" name="wordLength" stackId="4" startPc="268437000"/>
+<entry endPc="268437151" name="space" stackId="5" startPc="268437000"/>
+<entry endPc="268437151" name="word2" stackId="3" startPc="268437000"/>
+<entry endPc="268437151" name="word1" stackId="2" startPc="268437000"/>
+<entry endPc="268437473" name="i" stackId="5" startPc="268437424"/>
+<entry endPc="268437473" name="keys" stackId="4" startPc="268437333"/>
+<entry endPc="268437684" name="delay" stackId="6" startPc="268437570"/>
+<entry endPc="268437717" name="data_text" stackId="3" startPc="268437282"/>
+<entry endPc="268438179" name="url" stackId="2" startPc="268438000"/>
+<entry endPc="268438315" name="wordLength" stackId="4" startPc="268438184"/>
+<entry endPc="268438315" name="space" stackId="5" startPc="268438184"/>
+<entry endPc="268438315" name="word2" stackId="3" startPc="268438184"/>
+<entry endPc="268438315" name="word1" stackId="2" startPc="268438184"/>
+<entry endPc="268438471" name="wordLength" stackId="4" startPc="268438320"/>
+<entry endPc="268438471" name="space" stackId="5" startPc="268438320"/>
+<entry endPc="268438471" name="word2" stackId="3" startPc="268438320"/>
+<entry endPc="268438471" name="word1" stackId="2" startPc="268438320"/>
+<entry endPc="268438882" name="delay" stackId="6" startPc="268438658"/>
+<entry endPc="268438882" name="data_temp" stackId="5" startPc="268438658"/>
+<entry endPc="268438895" name="i" stackId="4" startPc="268438658"/>
+<entry endPc="268438991" name="data_text" stackId="3" startPc="268438476"/>
+<entry endPc="268439177" name="m" stackId="3" startPc="268439036"/>
+<entry endPc="268439177" name="v" stackId="2" startPc="268439036"/>
+<entry endPc="268439478" name="view" stackId="6" startPc="268439187"/>
+<entry endPc="268439478" name="hour" stackId="4" startPc="268439187"/>
+<entry endPc="268439478" name="ap" stackId="3" startPc="268439187"/>
+<entry endPc="268439478" name="timeString" stackId="5" startPc="268439187"/>
+<entry endPc="268439478" name="clockTime" stackId="2" startPc="268439187"/>
+<entry endPc="268439709" name="i" stackId="3" startPc="268439668"/>
+<entry endPc="268439709" name="keys" stackId="2" startPc="268439595"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DepartLabel_fontHeight" stackId="7" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DirectionLabel" stackId="4" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DepartLabel" stackId="6" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DelayLabel" stackId="8" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DirectionLabel_fontHeight" stackId="5" startPc="268439733"/>
+<entry endPc="268440695" name="rez_cmp_local_bitmap_DelayLabel_fontHeight" stackId="9" startPc="268439733"/>
 </localVars>
 <annotations/>
 <functions>
-<functionEntry name="initialize" parent="WordFactory">
-<param id="words"/>
-<param id="options"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="getIndex" parent="WordFactory">
-<param id="value"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="getSize" parent="WordFactory">
-<documentation/>
-</functionEntry>
-<functionEntry name="getValue" parent="WordFactory">
-<param id="index"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="getDrawable" parent="WordFactory">
-<param id="index"/>
-<param id="selected"/>
-<documentation/>
-</functionEntry>
 <functionEntry name="initialize" parent="WebRequestView">
 <documentation/>
 </functionEntry>
@@ -499,20 +423,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="getInitialView" parent="WebRequestApp">
-<documentation/>
-</functionEntry>
-<functionEntry name="initialize" parent="Station1Chooser">
-<documentation/>
-</functionEntry>
-<functionEntry name="onUpdate" parent="Station1Chooser">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="onCancel" parent="Station1ChooserDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry name="onAccept" parent="Station1ChooserDelegate">
-<param id="values"/>
 <documentation/>
 </functionEntry>
 <functionEntry name="onMenu" parent="ScheduleViewDelegate">
