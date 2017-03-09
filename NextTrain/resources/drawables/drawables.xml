@@ -1,0 +1,3 @@
+<drawable-list id="ButtonLabels">
+		<shape type="rectangle" x="0" y="134" color="Gfx.COLOR_RED"></shape>
+</drawable-list>
