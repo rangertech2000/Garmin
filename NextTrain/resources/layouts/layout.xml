@@ -7,7 +7,15 @@
 </layout>
 <layout id="Station1Picker">
 	<drawable id="ButtonLabels" />
-	<label id="TitleLabel" x="center" y="top" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" text="Pick the Start station" />
+	<label id="TitleLabel" x="center" y="top" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" text="Pick the Start station" />
+	<label id="Station01Label" x="left" y="20" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" text="Narberth" />
+	<label id="Station02Label" x="left" y="46" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" text="Merion" />
+	<label id="Station03Label" x="left" y="72" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" text="Overbrook" />
+	<label id="Station04Label" x="left" y="98" font="Gfx.FONT_MEDIUM" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" text="Wissahickon" />
+	
+	<label id="ExitLabel" x="left" y="bottom" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT" color="Gfx.COLOR_BLUE" text="Exit" />
+	<label id="SaveLabel" x="right" y="bottom" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_RIGHT" color="Gfx.COLOR_BLUE" text="Save" />
+	
 </layout>
 </resources>
 
