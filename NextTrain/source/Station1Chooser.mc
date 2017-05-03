@@ -1,4 +1,3 @@
-using Toybox.Application as App;
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
@@ -14,19 +13,5 @@ class Station1Chooser extends Ui.Picker {
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
         Picker.onUpdate(dc);
-    }
-}
-
-class Station1ChooserDelegate extends Ui.PickerDelegate {
-	hidden var wView;
-	
-    function onCancel() {
-        System.exit();
-    }
-
-    function onAccept(values) {
-    	App.getApp().setProperty("station1", values[0]); 
-    	wView = new WebRequestView();
-    	Ui.pushView(wView, new WebRequestDelegate(wView.method(:onReceive)), Ui.SLIDE_IMMEDIATE);
     }
 }
