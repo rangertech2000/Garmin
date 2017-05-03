@@ -43,6 +43,11 @@ class WordFactory extends Ui.PickerFactory {
         return 0;
     }
 */
+ 	function getIndex(value) {
+        var index = mWords.find(value);
+        return index;
+    }
+    
     function getSize() {
         return mWords.size();
     }

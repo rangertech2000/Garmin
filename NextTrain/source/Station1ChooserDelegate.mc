@@ -14,7 +14,8 @@ class Station1ChooserDelegate extends Ui.PickerDelegate {
 
     function onAccept(values) {
     	App.getApp().setProperty("station1", values[0]); 
-    	wView = new WebRequestView();
-    	Ui.pushView(wView, new WebRequestDelegate(wView.method(:onReceive)), Ui.SLIDE_IMMEDIATE);
+    	//wView = new WebRequestView();
+    	//Ui.pushView(wView, new WebRequestDelegate(wView.method(:onReceive)), Ui.SLIDE_IMMEDIATE);
+    	Ui.popView(Ui.SLIDE_IMMEDIATE);
     }
 }
