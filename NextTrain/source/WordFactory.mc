@@ -43,14 +43,6 @@ class WordFactory extends Ui.PickerFactory {
         return 0;
     }
 */
-<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
- 	function getIndex(value) {
-        var index = mWords.find(value);
-        return index;
-    }
-    
-=======
->>>>>>> 6370fff v.b.0.7.2
     function getSize() {
         return mWords.size();
     }
