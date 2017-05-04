@@ -3,6 +3,7 @@
 <pcToLineNum>
 <entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="9" pc="268435456" symbol="initialize"/>
 <entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="10" pc="268435460" symbol="initialize"/>
+<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
 <entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="46" pc="268435479" symbol="getIndex"/>
 <entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="47" pc="268435483" symbol="getIndex"/>
 <entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="48" pc="268435504" symbol="getIndex"/>
@@ -270,12 +271,278 @@
 <entry filename="Rez" lineNum="31" pc="268441425" symbol="WatchFace"/>
 <entry filename="Rez" lineNum="32" pc="268441450" symbol="WatchFace"/>
 <entry filename="Rez" lineNum="35" pc="268441502" symbol="WatchFace"/>
+=======
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="46" pc="268435479" symbol="getSize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="47" pc="268435483" symbol="getSize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="50" pc="268435502" symbol="getValue"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="51" pc="268435506" symbol="getValue"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="54" pc="268435519" symbol="getDrawable"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WordFactory.mc" lineNum="55" pc="268435523" symbol="getDrawable"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="11" pc="268435652" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="12" pc="268435656" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="14" pc="268435678" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="15" pc="268435715" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="16" pc="268435728" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="19" pc="268435744" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="22" pc="268435760" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="23" pc="268435797" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="24" pc="268435810" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="27" pc="268435826" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="32" pc="268435843" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="33" pc="268435847" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="35" pc="268435884" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="38" pc="268435897" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="40" pc="268435943" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="42" pc="268435961" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="47" pc="268435989" symbol="onShow"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="51" pc="268435994" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="54" pc="268435998" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="55" pc="268436015" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="56" pc="268436015" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="57" pc="268436025" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="58" pc="268436036" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="59" pc="268436043" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="62" pc="268436064" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="63" pc="268436074" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="66" pc="268436084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="67" pc="268436095" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="70" pc="268436105" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="73" pc="268436112" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="74" pc="268436220" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="75" pc="268436244" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="77" pc="268436258" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="78" pc="268436282" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="81" pc="268436302" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="91" pc="268436323" symbol="onHide"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="94" pc="268436328" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="95" pc="268436332" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="96" pc="268436356" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="98" pc="268436380" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="99" pc="268436398" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="100" pc="268436421" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="102" pc="268436456" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="106" pc="268436491" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="107" pc="268436514" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="114" pc="268436527" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="115" pc="268436555" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestView.mc" lineNum="118" pc="268436586" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="11" pc="268436603" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="12" pc="268436607" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="13" pc="268436637" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="14" pc="268436717" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="17" pc="268436721" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="20" pc="268436725" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="21" pc="268436797" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="25" pc="268436801" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="26" pc="268436805" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="27" pc="268436817" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="28" pc="268436837" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="32" pc="268436841" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="33" pc="268436845" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="34" pc="268436865" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="38" pc="268436869" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="39" pc="268436873" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="40" pc="268436895" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="43" pc="268436906" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="44" pc="268436910" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="46" pc="268436933" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="46" pc="268436940" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="48" pc="268436955" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="49" pc="268437014" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="51" pc="268437045" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="64" pc="268437112" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="65" pc="268437116" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="66" pc="268437116" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="67" pc="268437129" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="69" pc="268437147" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="70" pc="268437154" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="71" pc="268437180" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="72" pc="268437203" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="73" pc="268437210" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="74" pc="268437228" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="76" pc="268437244" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="79" pc="268437248" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="80" pc="268437252" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="81" pc="268437252" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="82" pc="268437265" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="84" pc="268437283" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="85" pc="268437290" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="86" pc="268437310" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="87" pc="268437333" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="88" pc="268437340" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="89" pc="268437358" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="92" pc="268437374" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="93" pc="268437400" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="96" pc="268437404" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="97" pc="268437408" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="98" pc="268437425" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="99" pc="268437438" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="100" pc="268437454" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="103" pc="268437473" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="104" pc="268437486" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="105" pc="268437502" symbol="changeDirection"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="110" pc="268437519" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="111" pc="268437523" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="112" pc="268437534" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="114" pc="268437558" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="116" pc="268437565" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="117" pc="268437585" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="118" pc="268437606" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="120" pc="268437639" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="121" pc="268437652" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="122" pc="268437676" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="126" pc="268437748" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="127" pc="268437769" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="130" pc="268437802" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="131" pc="268437822" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="133" pc="268437832" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="134" pc="268437850" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="135" pc="268437870" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="138" pc="268437883" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="144" pc="268437939" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="147" pc="268437949" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestDelegate.mc" lineNum="150" pc="268437972" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="9" pc="268438008" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="10" pc="268438012" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="14" pc="268438035" symbol="onStart"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="18" pc="268438040" symbol="onStop"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="22" pc="268438045" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="23" pc="268438049" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\WebRequestApp.mc" lineNum="24" pc="268438079" symbol="getInitialView"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="7" pc="268438155" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="8" pc="268438159" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="11" pc="268438182" symbol="onCancel"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="12" pc="268438186" symbol="onCancel"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="15" pc="268438205" symbol="onAccept"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="16" pc="268438209" symbol="onAccept"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="17" pc="268438247" symbol="onAccept"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1ChooserDelegate.mc" lineNum="18" pc="268438277" symbol="onAccept"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="6" pc="268438358" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="7" pc="268438362" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="9" pc="268438484" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="10" pc="268438508" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="13" pc="268438567" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="14" pc="268438571" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="15" pc="268438607" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\Station1Chooser.mc" lineNum="16" pc="268438619" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="10" pc="268438640" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="11" pc="268438644" symbol="onMenu"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="14" pc="268438648" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="16" pc="268438652" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="17" pc="268438676" symbol="onBack"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="20" pc="268438680" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="21" pc="268438684" symbol="onKey"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="24" pc="268438688" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="25" pc="268438692" symbol="onSelect"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="29" pc="268438696" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="30" pc="268438700" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="31" pc="268438722" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="34" pc="268438733" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="35" pc="268438737" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="37" pc="268438760" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="38" pc="268438819" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="40" pc="268438850" symbol="makeRequest"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="49" pc="268438917" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="50" pc="268438921" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="51" pc="268438921" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="52" pc="268438934" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="54" pc="268438952" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="55" pc="268438959" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="56" pc="268438985" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="57" pc="268439008" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="59" pc="268439015" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="60" pc="268439033" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="62" pc="268439049" symbol="replaceSpaces"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="65" pc="268439053" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="66" pc="268439057" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="67" pc="268439057" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="68" pc="268439070" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="70" pc="268439088" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="71" pc="268439095" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="72" pc="268439115" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="73" pc="268439138" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="74" pc="268439145" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="75" pc="268439163" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="78" pc="268439179" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="79" pc="268439205" symbol="formatTime"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="84" pc="268439209" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="85" pc="268439213" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="87" pc="268439220" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="88" pc="268439240" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="89" pc="268439261" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="92" pc="268439317" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="93" pc="268439338" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="95" pc="268439371" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="96" pc="268439395" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="97" pc="268439402" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268439420" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="99" pc="268439439" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="100" pc="268439449" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="102" pc="268439492" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="110" pc="268439635" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="111" pc="268439646" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="112" pc="268439670" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleViewDelegate.mc" lineNum="114" pc="268439693" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="9" pc="268439729" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="10" pc="268439733" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="11" pc="268439755" symbol="initialize"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="15" pc="268439769" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="16" pc="268439773" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="18" pc="268439810" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="21" pc="268439823" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="23" pc="268439869" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="25" pc="268439887" symbol="onLayout"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="29" pc="268439915" symbol="onShow"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="33" pc="268439920" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="36" pc="268439924" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="37" pc="268439941" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="38" pc="268439941" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="39" pc="268439951" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="40" pc="268439962" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="41" pc="268439972" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="44" pc="268439982" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="46" pc="268439989" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="47" pc="268440067" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="48" pc="268440091" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="51" pc="268440105" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="53" pc="268440125" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="55" pc="268440161" symbol="onUpdate"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="61" pc="268440216" symbol="onHide"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="64" pc="268440221" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="65" pc="268440225" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="66" pc="268440243" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="67" pc="268440266" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="68" pc="268440301" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="72" pc="268440332" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="73" pc="268440355" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="74" pc="268440368" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="76" pc="268440381" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="78" pc="268440405" symbol="onReceive"/>
+<entry filename="C:\\Users\\user\\git\\Garmin\\NextTrain\\source\\ScheduleView.mc" lineNum="82" pc="268440449" symbol="onReceive"/>
+<entry filename="Rez" lineNum="19" pc="268440466" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268440470" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268440633" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268440658" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268440710" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268440858" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268440883" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268440935" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268441083" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268441108" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268441160" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="31" pc="268441308" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268441333" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268441385" symbol="WatchFace"/>
+>>>>>>> 6370fff v.b.0.7.2
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="12" symbol="directionString"/>
 <entry id="8388644" symbol="System"/>
+<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
 <entry field="true" id="31" symbol="factory"/>
 <entry id="34" method="true" symbol="getIndex"/>
+=======
+>>>>>>> 6370fff v.b.0.7.2
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8389642" symbol="title"/>
@@ -317,7 +584,11 @@
 <entry id="17" object="true" symbol="WebRequestApp"/>
 <entry id="9" object="true" symbol="WebRequestView"/>
 <entry id="8389279" method="true" symbol="onStart"/>
+<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
 <entry field="true" id="33" symbol="mStation"/>
+=======
+<entry field="true" id="32" symbol="mStation"/>
+>>>>>>> 6370fff v.b.0.7.2
 <entry field="true" id="25" symbol="notify"/>
 <entry id="8389348" symbol="font"/>
 <entry id="10" object="true" symbol="WebRequestDelegate"/>
@@ -343,6 +614,7 @@
 <entry id="40" symbol="mView"/>
 </symbolTable>
 <localVars>
+<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
 <entry endPc="268435507" name="index" stackId="2" startPc="268435483"/>
 <entry endPc="268436093" name="m" stackId="3" startPc="268435952"/>
 <entry endPc="268436093" name="v" stackId="2" startPc="268435952"/>
@@ -398,14 +670,75 @@
 <entry endPc="268441549" name="rez_cmp_local_bitmap_DelayLabel" stackId="8" startPc="268440587"/>
 <entry endPc="268441549" name="rez_cmp_local_bitmap_DirectionLabel_fontHeight" stackId="5" startPc="268440587"/>
 <entry endPc="268441549" name="rez_cmp_local_bitmap_DelayLabel_fontHeight" stackId="9" startPc="268440587"/>
+=======
+<entry endPc="268435988" name="m" stackId="3" startPc="268435847"/>
+<entry endPc="268435988" name="v" stackId="2" startPc="268435847"/>
+<entry endPc="268436322" name="view" stackId="6" startPc="268435998"/>
+<entry endPc="268436322" name="hour" stackId="4" startPc="268435998"/>
+<entry endPc="268436322" name="ap" stackId="3" startPc="268435998"/>
+<entry endPc="268436322" name="timeString" stackId="5" startPc="268435998"/>
+<entry endPc="268436322" name="viewDirection" stackId="7" startPc="268435998"/>
+<entry endPc="268436322" name="clockTime" stackId="2" startPc="268435998"/>
+<entry endPc="268436583" name="keys" stackId="4" startPc="268436491"/>
+<entry endPc="268436602" name="viewDelay" stackId="3" startPc="268436332"/>
+<entry endPc="268436602" name="viewDepart" stackId="2" startPc="268436332"/>
+<entry endPc="268437111" name="url" stackId="2" startPc="268436910"/>
+<entry endPc="268437247" name="wordLength" stackId="4" startPc="268437116"/>
+<entry endPc="268437247" name="space" stackId="5" startPc="268437116"/>
+<entry endPc="268437247" name="word2" stackId="3" startPc="268437116"/>
+<entry endPc="268437247" name="word1" stackId="2" startPc="268437116"/>
+<entry endPc="268437403" name="wordLength" stackId="4" startPc="268437252"/>
+<entry endPc="268437403" name="space" stackId="5" startPc="268437252"/>
+<entry endPc="268437403" name="word2" stackId="3" startPc="268437252"/>
+<entry endPc="268437403" name="word1" stackId="2" startPc="268437252"/>
+<entry endPc="268437725" name="i" stackId="5" startPc="268437676"/>
+<entry endPc="268437725" name="keys" stackId="4" startPc="268437585"/>
+<entry endPc="268437936" name="delay" stackId="6" startPc="268437822"/>
+<entry endPc="268437969" name="data_text" stackId="3" startPc="268437534"/>
+<entry endPc="268438566" name="factory" stackId="2" startPc="268438362"/>
+<entry endPc="268438566" name="title" stackId="1" startPc="268438362"/>
+<entry endPc="268438916" name="url" stackId="2" startPc="268438737"/>
+<entry endPc="268439052" name="wordLength" stackId="4" startPc="268438921"/>
+<entry endPc="268439052" name="space" stackId="5" startPc="268438921"/>
+<entry endPc="268439052" name="word2" stackId="3" startPc="268438921"/>
+<entry endPc="268439052" name="word1" stackId="2" startPc="268438921"/>
+<entry endPc="268439208" name="wordLength" stackId="4" startPc="268439057"/>
+<entry endPc="268439208" name="space" stackId="5" startPc="268439057"/>
+<entry endPc="268439208" name="word2" stackId="3" startPc="268439057"/>
+<entry endPc="268439208" name="word1" stackId="2" startPc="268439057"/>
+<entry endPc="268439619" name="delay" stackId="6" startPc="268439395"/>
+<entry endPc="268439619" name="data_temp" stackId="5" startPc="268439395"/>
+<entry endPc="268439632" name="i" stackId="4" startPc="268439395"/>
+<entry endPc="268439728" name="data_text" stackId="3" startPc="268439213"/>
+<entry endPc="268439914" name="m" stackId="3" startPc="268439773"/>
+<entry endPc="268439914" name="v" stackId="2" startPc="268439773"/>
+<entry endPc="268440215" name="view" stackId="6" startPc="268439924"/>
+<entry endPc="268440215" name="hour" stackId="4" startPc="268439924"/>
+<entry endPc="268440215" name="ap" stackId="3" startPc="268439924"/>
+<entry endPc="268440215" name="timeString" stackId="5" startPc="268439924"/>
+<entry endPc="268440215" name="clockTime" stackId="2" startPc="268439924"/>
+<entry endPc="268440446" name="i" stackId="3" startPc="268440405"/>
+<entry endPc="268440446" name="keys" stackId="2" startPc="268440332"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DepartLabel_fontHeight" stackId="7" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DirectionLabel" stackId="4" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DepartLabel" stackId="6" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DelayLabel" stackId="8" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DirectionLabel_fontHeight" stackId="5" startPc="268440470"/>
+<entry endPc="268441432" name="rez_cmp_local_bitmap_DelayLabel_fontHeight" stackId="9" startPc="268440470"/>
+>>>>>>> 6370fff v.b.0.7.2
 </localVars>
 <annotations/>
 <functions>
 <functionEntry name="initialize" parent="WordFactory">
+<<<<<<< Upstream, based on branch 'feature1' of https://github.com/rangertech2000/Garmin.git
 <documentation/>
 </functionEntry>
 <functionEntry name="getIndex" parent="WordFactory">
 <param id="value"/>
+=======
+>>>>>>> 6370fff v.b.0.7.2
 <documentation/>
 </functionEntry>
 <functionEntry name="getSize" parent="WordFactory">
