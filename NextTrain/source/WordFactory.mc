@@ -2,9 +2,14 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
 class WordFactory extends Ui.PickerFactory {
-    var mWords;
-    var mFont;
-
+    var mWords = ["Narb","Meri","Over","Wiss"];
+    var mStation = ["Narberth","Merion","Overbrook","Wissahickon"];
+    var mFont= Gfx.FONT_MEDIUM;
+    
+    function initialize() {
+        PickerFactory.initialize();
+        }
+/*
     function initialize(words, options) {
         PickerFactory.initialize();
 
@@ -18,8 +23,8 @@ class WordFactory extends Ui.PickerFactory {
             mFont = Gfx.FONT_LARGE;
         }
     }
-
-    function getIndex(value) {
+*/
+/*    function getIndex(value) {
         if(value instanceof String) {
             for(var i = 0; i < mWords.size(); ++i) {
                 if(value.equals(Ui.loadResource(mWords[i]))) {
@@ -37,13 +42,13 @@ class WordFactory extends Ui.PickerFactory {
 
         return 0;
     }
-
+*/
     function getSize() {
         return mWords.size();
     }
 
     function getValue(index) {
-        return mWords[index];
+        return mStation[index];
     }
 
     function getDrawable(index, selected) {
