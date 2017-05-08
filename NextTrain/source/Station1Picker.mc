@@ -1,7 +1,7 @@
 using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
-class Station1Chooser extends Ui.Picker {
+class Station1Picker extends Ui.Picker {
 
     function initialize() {
         var title = new Ui.Text({:text=>Rez.Strings.Station1ChooserTitle, :locX =>Ui.LAYOUT_HALIGN_CENTER, :locY=>Ui.LAYOUT_VALIGN_BOTTOM, :color=>Gfx.COLOR_WHITE});

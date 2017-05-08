@@ -10,10 +10,11 @@ class WebRequestView extends Ui.View {
     
     function initialize() {
         Ui.View.initialize();
-        
+     
         station1 = App.getApp().getProperty("station1"); 
         if(station1 == null) {
             station1 = "Narberth";
+            App.getApp().setProperty("station1", station1); 
         }
         else {
         	startStation = station1;
@@ -22,10 +23,12 @@ class WebRequestView extends Ui.View {
         station2 = App.getApp().getProperty("station2"); 
         if(station2 == null) {
             station2 = "Suburban Station";
+            App.getApp().setProperty("station2", station2); 
         }
         else {
         	endStation = station2;
         }	
+
     }
 
     // Load your resources here
@@ -49,7 +52,7 @@ class WebRequestView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
-       
+    	
         // Get and show the current time
         var clockTime = Sys.getClockTime();
         var ap;

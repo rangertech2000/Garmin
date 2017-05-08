@@ -12,7 +12,6 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     }
     
     function onBack() {
-    	//Ui.switchToView(WebRequestView(), WebRequestDelegate(), Ui.SLIDE_UP);
     	popView(Ui.SLIDE_UP);
     	return true;
     }
