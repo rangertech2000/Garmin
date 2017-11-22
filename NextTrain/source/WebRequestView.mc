@@ -3,10 +3,12 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
+using Toybox.Timer as Timer;
 
 class WebRequestView extends Ui.View {
     hidden var mMessage = "Press menu button";
     hidden var mModel;
+    var myTimer;
     
     function initialize() {
         Ui.View.initialize();
@@ -43,6 +45,9 @@ class WebRequestView extends Ui.View {
     	var m = v.method(:makeRequest);
     	// Invoke v's makeRequest method.
     	mMessage = m.invoke(direction);
+    	
+    	myTimer = new Timer.Timer();
+    	myTimer.start(method(:timerCallback), 1000, true);
         
     }
 
@@ -120,4 +125,8 @@ class WebRequestView extends Ui.View {
         
         Ui.requestUpdate();
     }
+    
+    function timerCallback() {
+    	Ui.requestUpdate();
+	}
 }

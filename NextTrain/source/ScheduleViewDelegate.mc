@@ -34,7 +34,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     	notify.invoke("Executing\nRequest");
     	
     	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/20"; 
-		directionString = startStation + "-->" + endStation;
+		directionString = startStation + "\n -->" + endStation;
         
         Comm.makeWebRequest(
             url,
