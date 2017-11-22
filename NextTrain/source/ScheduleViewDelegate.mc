@@ -31,7 +31,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     }
     
     function makeRequest(direction) {
-    	notify.invoke("Executing Request");
+    	notify.invoke("Executing\nRequest");
     	
     	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/20"; 
 		directionString = startStation + "-->" + endStation;

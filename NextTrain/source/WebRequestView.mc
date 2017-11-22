@@ -35,7 +35,7 @@ class WebRequestView extends Ui.View {
     function onLayout(dc) {
     	setLayout(Rez.Layouts.WatchFace(dc));
     	
-        mMessage = "Requesting Data...";
+        mMessage = "Requesting\nData...";
         
         // Retrieve data on page load
         var v = new WebRequestDelegate(WebRequestView.method(:onReceive));

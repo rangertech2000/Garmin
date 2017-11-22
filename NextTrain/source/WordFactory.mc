@@ -2,7 +2,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.WatchUi as Ui;
 
 class WordFactory extends Ui.PickerFactory {
-    var mWords = ["Narb","Meri","Over","Wiss"];
+    var mWords = ["Narberth","Merion","Overbrk","Wisshckn"];
     var mStation = ["Narberth","Merion","Overbrook","Wissahickon"];
     var mFont= Gfx.FONT_MEDIUM;
     
