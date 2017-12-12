@@ -8,15 +8,12 @@ class ScheduleView extends Ui.View {
 
     function initialize() {
         Ui.View.initialize();
-        mMessage = "Retrieving data...";
     }
 
     // Load your resources here
     function onLayout(dc) {
     	setLayout(Rez.Layouts.WatchFace(dc));
-    	
-        mMessage = "Schedule View";
-        
+    	     
         // Retrieve schedule data on page load
         var v = new ScheduleViewDelegate(ScheduleView.method(:onReceive));
     	// Get the callback for the onReceive method.
@@ -31,7 +28,10 @@ class ScheduleView extends Ui.View {
 
     // Update the view
     function onUpdate(dc) {
-       
+    	if (mMessage == null){
+  	    	mMessage = "Retrieving\nSchedule";
+  	    }
+       /*
         // Get and show the current time
         var clockTime = Sys.getClockTime();
         var ap;
@@ -49,11 +49,11 @@ class ScheduleView extends Ui.View {
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        */
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
         //dc.clear();
-        dc.drawText(0, 0, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_LEFT);
-        
+        dc.drawText(0, 0, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_LEFT);    
     }
 
     // Called when this View is removed from the screen. Save the

@@ -31,10 +31,10 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     }
     
     function makeRequest(direction) {
-    	notify.invoke("Executing Request");
+    	notify.invoke("Executing\nRequest");
     	
     	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/20"; 
-		directionString = startStation + "-->" + endStation;
+		directionString = startStation + "\n -->" + endStation;
         
         Comm.makeWebRequest(
             url,
@@ -81,7 +81,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	var data_text = "Delay  Depart      Arrive\n";
+    	var data_text = "Delay  Depart   Arr\n";
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
@@ -98,7 +98,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             	if (delay.equals("On time")) {delay = 0;}
             	else {delay = delay.substring(0, delay.find(" min")).toNumber();}
 
-            	data_text += Lang.format("$1$m   $2$-->$3$\n",  
+            	data_text += Lang.format("$1$m  $2$->$3$\n",  
             		[delay.format("%02d"), 
             		formatTime(data_temp.get("orig_departure_time")), 
             		formatTime(data_temp.get("orig_arrival_time"))]

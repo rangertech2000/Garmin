@@ -41,12 +41,12 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     }
 
     function makeRequest(direction) {
-    	notify.invoke("Executing Request");
+    	notify.invoke("Executing\nRequest");
    		
    		if (direction == null) { changeDirection(); }
    		
     	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/1"; 
-		directionString = startStation + "-->" + endStation;
+		directionString = startStation + "\n--> " + endStation;
         
         Comm.makeWebRequest(
             url,
@@ -141,7 +141,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 			    	};
 		    	}
 		    	else {
-		    		data_text = "No trains available";
+		    		data_text = "No trains\navailable";
 		    	}    	
 	        }      	
             notify.invoke(data_text);

@@ -1,6 +1,6 @@
 <layout id="WatchFace">
     <label id="TimeLabel" x="center" y="top" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_BLUE" ></label>
-    <label id="DirectionLabel" x="center" y="30" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE"></label>
-    <label id="DepartLabel" x="center" y="54" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE"></label>
-    <label id="DelayLabel" x="center" y="116" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE"></label>
+    <label id="DirectionLabel" x="5" y="30" font="Gfx.FONT_SMALL" justification="Gfx.TEXT_JUSTIFY_LEFT"	color="Gfx.COLOR_WHITE"></label>
+    <label id="DepartLabel" x="center" y="70" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE"></label>
+    <label id="DelayLabel" x="center" y="132" font="Gfx.FONT_LARGE" justification="Gfx.TEXT_JUSTIFY_CENTER"	color="Gfx.COLOR_WHITE"></label>
 </layout>

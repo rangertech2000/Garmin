@@ -1,5 +1,4 @@
 <resources>
     <string id="AppName">NextTrain</string>
-    <string id="Station1ChooserTitle">Pick the Start station</string>
-
+    <string id="Station1ChooserTitle">Start station:</string>
 </resources>
