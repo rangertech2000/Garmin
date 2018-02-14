@@ -9,6 +9,10 @@ class WebRequestView extends Ui.View {
     hidden var mMessage = "Press menu button";
     hidden var mModel;
     var myTimer;
+    var mDelegate;
+    var notify;
+    var mCount60s;
+    hidden var mView;
     
     function initialize() {
         Ui.View.initialize();
@@ -46,9 +50,8 @@ class WebRequestView extends Ui.View {
     	// Invoke v's makeRequest method.
     	mMessage = m.invoke(direction);
     	
-    	myTimer = new Timer.Timer();
-    	myTimer.start(method(:timerCallback), 1000, true);
-        
+       	myTimer = new Timer.Timer();
+    	myTimer.start(method(:timerCallback), 1000, true);   	
     }
 
     // Restore the state of the app and prepare the view to be shown
@@ -127,6 +130,22 @@ class WebRequestView extends Ui.View {
     }
     
     function timerCallback() {
+    	if (mCount60s == null || mCount60s == 60 ){ mCount60s = 1;}
+    	else {mCount60s++;}
+    	System.println("mCount60s: " + mCount60s);
     	Ui.requestUpdate();
+    	
+    	if (mCount60s == 60) {
+    		System.println("Making a WebRequest");
+    		
+    		// Retrieve data on page load
+        var v = new WebRequestDelegate(WebRequestView.method(:onReceive));
+    	// Get the callback for the onReceive method.
+    	var m = v.method(:makeRequest);
+    	// Invoke v's makeRequest method.
+    	m.invoke(direction);
+    	
+    	//Ui.View.initialize();
+    	}
 	}
 }
