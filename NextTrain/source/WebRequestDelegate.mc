@@ -76,8 +76,8 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     	return word;
     }
     
-        function formatTime(word) {
-        var word1, word2;
+    function formatTime(word) {
+       	var word1, word2;
     	var wordLength = word.length();
     	var space = word.find(" ");
     	// Remove any spaces
@@ -90,6 +90,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     	}
     	// Remove the trailing "M"
     	word = word.substring(0, wordLength - 1); 
+    	//word = word.substring(0, (word.length() - 1)); 
     	return word;
     }
 
@@ -134,7 +135,12 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 			    	if (!delay.equals("On time")) {
 			    		delay = delay + " delayed";
 			    	}
-			            	
+			        
+			        // Format the depart time    	
+			        //var departTime = replaceSpaces(data.get("orig_departure_time"));
+			        //System.println("departTime: " + departTime);    
+			        //departTime = formatTime(departTime);
+			        //System.println("departTime: " + departTime);    	
 			    	data_text = {
 			    	"Depart Time"=>formatTime(data.get("orig_departure_time"))
 			    	,"Delay"=>delay

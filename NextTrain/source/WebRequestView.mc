@@ -85,11 +85,21 @@ class WebRequestView extends Ui.View {
         var view = View.findDrawableById("TimeLabel");
         view.setText(timeString);
         
-        var viewDirectionStart = View.findDrawableById("StartStationLabel");
-        var viewDirectionEnd = View.findDrawableById("EndStationLabel");
-        viewDirectionStart.setText(startStation);
-        viewDirectionEnd.setText(endStation);
-              
+        var viewDirectionStart = View.findDrawableById("lblStartStationName");   
+        var viewDirectionEnd = View.findDrawableById("lblEndStationName");   
+        // Shorten the station names 
+        var i = startStation.find("Station");
+        if (i == null) 
+        	{viewDirectionStart.setText(startStation);}
+        else 
+        	{viewDirectionStart.setText(startStation.substring(0, i));}
+
+        var j = endStation.find("Station");
+        if (j == null) 
+        	{viewDirectionEnd.setText(endStation);}
+        else 
+        	{viewDirectionEnd.setText(endStation.substring(0, j));}  
+        	    
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
@@ -105,9 +115,9 @@ class WebRequestView extends Ui.View {
     }
 
     function onReceive(args) {
-    	var viewDepart = View.findDrawableById("DepartLabel");
-    	var viewDelay = View.findDrawableById("DelayLabel");
-    
+    	var viewDepart = View.findDrawableById("lblDepartTime");
+    	var viewDelay = View.findDrawableById("lblDelay");
+    		
         if (args instanceof Lang.String) {
         	System.println("args is a String type.");
         	System.println("args: " + args.toString());
@@ -132,13 +142,13 @@ class WebRequestView extends Ui.View {
     }
     
     function timerCallback() {
-    	if (mCount60s == null || mCount60s == 10 ){ mCount60s = 1;}
+    	if (mCount60s == null || mCount60s == 60 ){ mCount60s = 1;}
     	else {mCount60s++;}
     		System.println("mCount60s: " + mCount60s);
     	// Update the seconds display 
     	Ui.requestUpdate();
     	
-    	if (mCount60s == 10) {
+    	if (mCount60s == 60) {
     		System.println("Making a new WebRequest");
     	
     		

@@ -12,7 +12,7 @@ class ScheduleView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-    	setLayout(Rez.Layouts.WatchFace(dc));
+    	//setLayout(Rez.Layouts.WatchFace(dc));
     	     
         // Retrieve schedule data on page load
         var v = new ScheduleViewDelegate(ScheduleView.method(:onReceive));
@@ -31,28 +31,12 @@ class ScheduleView extends Ui.View {
     	if (mMessage == null){
   	    	mMessage = "Retrieving\nSchedule";
   	    }
-       /*
-        // Get and show the current time
-        var clockTime = Sys.getClockTime();
-        var ap;
-        var hour = clockTime.hour; 
-        	if (hour > 12) {
-        		hour = hour - 12;
-        		ap = "PM";
-        	}
-        	else {
-        		ap = "AM";
-        	}	
-        var timeString = Lang.format("$1$:$2$ $3$", [hour, clockTime.min.format("%02d"), ap]);
-        var view = View.findDrawableById("TimeLabel");
-        view.setText(timeString);
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
-        */
-        
+
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
-        //dc.clear();
+        dc.clear();
         dc.drawText(0, 0, Gfx.FONT_MEDIUM, mMessage, Gfx.TEXT_JUSTIFY_LEFT);    
     }
 

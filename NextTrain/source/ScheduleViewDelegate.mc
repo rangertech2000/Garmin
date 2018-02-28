@@ -8,7 +8,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
  
     // Handle menu button press
     function onMenu() {
-    	return true;
+    	return false;
     }
     
     function onBack() {
@@ -17,11 +17,11 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     }
     
     function onKey(KEY_START) {
-        return true;
+        return false;
     }
 
     function onSelect() {
-        return true;
+        return false;
     }
 
     // Set up the callback to the view
