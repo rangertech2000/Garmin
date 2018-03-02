@@ -99,6 +99,10 @@ class WebRequestView extends Ui.View {
         	{viewDirectionEnd.setText(endStation);}
         else 
         	{viewDirectionEnd.setText(endStation.substring(0, j));}  
+        	
+        // Display Time Remaining
+        var timeRemaining = View.findDrawableById("lblMinutesRemaining");
+        timeRemaining.setText("999");	
         	    
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

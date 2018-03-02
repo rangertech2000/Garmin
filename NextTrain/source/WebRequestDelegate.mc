@@ -133,7 +133,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 		    	
 			    	var delay = data.get("orig_delay");
 			    	if (!delay.equals("On time")) {
-			    		delay = delay + " delayed";
+			    		delay = delay + " late";
 			    	}
 			        
 			        // Format the depart time    	
