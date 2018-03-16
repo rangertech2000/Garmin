@@ -1,6 +1,8 @@
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
@@ -136,14 +138,62 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 			    		delay = delay + " late";
 			    	}
 			        
-			        // Format the depart time    	
-			        //var departTime = replaceSpaces(data.get("orig_departure_time"));
-			        //System.println("departTime: " + departTime);    
-			        //departTime = formatTime(departTime);
-			        //System.println("departTime: " + departTime);    	
+			        // Format the depart time    	 
+			        var departTime = formatTime(data.get("orig_departure_time"));
+			        var colon = departTime.find(":");   
+			        var mHour = departTime.substring(0, colon).toNumber();
+			        var mMins = departTime.substring(colon+1, colon+3).toNumber();
+			        
+			        if (departTime.find("P") > 1 && mHour < 10){
+			        	mHour = mHour + 12;
+			        }	 
+			        // Get the current Gregorian depart time	
+	        		var options = {
+					    :hour=>mHour + 4,
+						:minute=>mMins
+						};
+					var DepartTimeGregorian = Gregorian.moment(options);
+					var today2 = Gregorian.info(DepartTimeGregorian, Time.FORMAT_MEDIUM);
+					var dateStringDepart = Lang.format(
+					    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
+					    [
+					        today2.hour,
+					        today2.min,
+					        today2.sec,
+					        today2.day_of_week,
+					        today2.day,
+					        today2.month,
+					        today2.year
+					    ]
+					);						
+					System.println("Depart Time: " + dateStringDepart);        
+			       		        		        
+			        // Calculate minutes until departure
+			        // ----	Get the current Time.Moment 
+			        		var mNow = new Time.Moment(Time.now().value());
+			        		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+							var dateString = Lang.format(
+							    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
+							    [
+							        today.hour,
+							        today.min,
+							        today.sec,
+							        today.day_of_week,
+							        today.day,
+							        today.month,
+							        today.year
+							    ]
+							);
+							System.println("Current Time: " + dateString);
+	
+							var MinutesRemaining = DepartTimeGregorian.compare(mNow)/60;
+							System.println("MinutesRemaining: " + MinutesRemaining); 
+			        	
+			        		
 			    	data_text = {
 			    	"Depart Time"=>formatTime(data.get("orig_departure_time"))
 			    	,"Delay"=>delay
+			    	,"Remaining"=>MinutesRemaining.toString()
 			    	};
 		    	}
 		    	else {

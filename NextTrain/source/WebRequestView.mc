@@ -100,9 +100,7 @@ class WebRequestView extends Ui.View {
         else 
         	{viewDirectionEnd.setText(endStation.substring(0, j));}  
         	
-        // Display Time Remaining
-        var timeRemaining = View.findDrawableById("lblMinutesRemaining");
-        timeRemaining.setText("999");	
+        
         	    
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
@@ -121,7 +119,9 @@ class WebRequestView extends Ui.View {
     function onReceive(args) {
     	var viewDepart = View.findDrawableById("lblDepartTime");
     	var viewDelay = View.findDrawableById("lblDelay");
-    		
+        var timeRemaining = View.findDrawableById("lblMinutesRemaining");
+        //timeRemaining.setText("999");	
+        	
         if (args instanceof Lang.String) {
         	System.println("args is a String type.");
         	System.println("args: " + args.toString());
@@ -140,6 +140,7 @@ class WebRequestView extends Ui.View {
             
         	viewDepart.setText(args.get("Depart Time"));
         	viewDelay.setText(args.get("Delay"));        
+        	timeRemaining.setText(args.get("Remaining"));
         }
         
         Ui.requestUpdate();
