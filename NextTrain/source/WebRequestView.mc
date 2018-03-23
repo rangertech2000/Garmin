@@ -120,7 +120,6 @@ class WebRequestView extends Ui.View {
     	var viewDepart = View.findDrawableById("lblDepartTime");
     	var viewDelay = View.findDrawableById("lblDelay");
         var timeRemaining = View.findDrawableById("lblMinutesRemaining");
-        //timeRemaining.setText("999");	
         	
         if (args instanceof Lang.String) {
         	System.println("args is a String type.");

@@ -8,6 +8,7 @@ using Toybox.Time.Gregorian;
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
     hidden var sView;
+    var myDST;
 
     // Handle menu button press
     function onMenu() {
@@ -40,6 +41,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function initialize(handler) {
         Ui.BehaviorDelegate.initialize();
         notify = handler;
+            
+    	//Get the DST offset
+		var myTime = System.getClockTime();
+		myDST = myTime.dst/3600; //convert dst to hours    
+		System.println("DST offset: " + myDST);	
     }
 
     function makeRequest(direction) {
@@ -133,44 +139,55 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 	            if (data.size() > 0) {    	
 		    		data = data[0]; //convert the array to a dictionary type
 		    	
-			    	var delay = data.get("orig_delay");
-			    	if (!delay.equals("On time")) {
-			    		delay = delay + " late";
+		    		var intDelay;
+			    	var strDelay = data.get("orig_delay");
+			    	if (!strDelay.equals("On time")) {	
+			    		intDelay = strDelay.toNumber();
+			    		strDelay = strDelay + " late";
+			    	}
+			    	else {
+			    		intDelay = 0;
 			    	}
 			        
-			        // Format the depart time    	 
-			        var departTime = formatTime(data.get("orig_departure_time"));
-			        var colon = departTime.find(":");   
-			        var mHour = departTime.substring(0, colon).toNumber();
-			        var mMins = departTime.substring(colon+1, colon+3).toNumber();
+				        // Get hour and minute info from Depart Time    	 
+				        var departTime = formatTime(data.get("orig_departure_time"));				        
+				        var colon = departTime.find(":");   
+				        var mHour = departTime.substring(0, colon).toNumber();
+				        var mMins = departTime.substring(colon+1, colon+3).toNumber();
+				        
+				        // Convert to 24hr formart
+				        if (departTime.find("P") != null && mHour < 12){
+				        	mHour = mHour + 12;
+				        }	 
 			        
-			        if (departTime.find("P") > 1 && mHour < 10){
-			        	mHour = mHour + 12;
-			        }	 
-			        // Get the current Gregorian depart time	
-	        		var options = {
-					    :hour=>mHour + 4,
-						:minute=>mMins
-						};
-					var DepartTimeGregorian = Gregorian.moment(options);
-					var today2 = Gregorian.info(DepartTimeGregorian, Time.FORMAT_MEDIUM);
-					var dateStringDepart = Lang.format(
-					    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
-					    [
-					        today2.hour,
-					        today2.min,
-					        today2.sec,
-					        today2.day_of_week,
-					        today2.day,
-					        today2.month,
-					        today2.year
-					    ]
-					);						
-					System.println("Depart Time: " + dateStringDepart);        
+				        // Get the current Gregorian depart time	
+		        		var options = {
+						    //:hour=>(mHour + (5 - myDST)),
+							:hour=>(mHour + (4)),
+							:minute=>mMins
+							};
+						var DepartTimeGregorian = Gregorian.moment(options);
+						// --debug-->
+						var today2 = Gregorian.info(DepartTimeGregorian, Time.FORMAT_MEDIUM);
+						var dateStringDepart = Lang.format(
+						    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
+						    [
+						        today2.hour,
+						        today2.min,
+						        today2.sec,
+						        today2.day_of_week,
+						        today2.day,
+						        today2.month,
+						        today2.year
+						    ]
+						);						
+						System.println("Depart Time: " + dateStringDepart);     
+						// <--debug--   
 			       		        		        
-			        // Calculate minutes until departure
-			        // ----	Get the current Time.Moment 
+				        // Calculate minutes until departure
+				        // ----	Get the current Time.Moment 
 			        		var mNow = new Time.Moment(Time.now().value());
+			        		// --debug-->
 			        		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 							var dateString = Lang.format(
 							    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
@@ -185,14 +202,14 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 							    ]
 							);
 							System.println("Current Time: " + dateString);
-	
-							var MinutesRemaining = DepartTimeGregorian.compare(mNow)/60;
+							// <--debug--
+							var MinutesRemaining = (DepartTimeGregorian.compare(mNow)/60) + intDelay;
 							System.println("MinutesRemaining: " + MinutesRemaining); 
 			        	
 			        		
 			    	data_text = {
 			    	"Depart Time"=>formatTime(data.get("orig_departure_time"))
-			    	,"Delay"=>delay
+			    	,"Delay"=>strDelay
 			    	,"Remaining"=>MinutesRemaining.toString()
 			    	};
 		    	}
