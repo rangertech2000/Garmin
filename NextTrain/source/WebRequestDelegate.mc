@@ -8,7 +8,7 @@ using Toybox.Time.Gregorian;
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
     hidden var sView;
-    var myDST;
+    var myTZoffset;
 
     // Handle menu button press
     function onMenu() {
@@ -42,10 +42,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         Ui.BehaviorDelegate.initialize();
         notify = handler;
             
-    	//Get the DST offset
+    	//Get the Time Zone offset
 		var myTime = System.getClockTime();
-		myDST = myTime.dst/3600; //convert dst to hours    
-		System.println("DST offset: " + myDST);	
+		myTZoffset = myTime.timeZoneOffset/3600; //convert offset to hours   
+		System.println("Time Zone offset: " + myTZoffset);	
     }
 
     function makeRequest(direction) {
@@ -162,8 +162,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 			        
 				        // Get the current Gregorian depart time	
 		        		var options = {
-						    //:hour=>(mHour + (5 - myDST)),
-							:hour=>(mHour + (4)),
+							:hour=>(mHour - myTZoffset),
 							:minute=>mMins
 							};
 						var DepartTimeGregorian = Gregorian.moment(options);
