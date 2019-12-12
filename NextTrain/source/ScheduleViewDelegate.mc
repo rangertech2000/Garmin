@@ -1,9 +1,3 @@
-//
-// Copyright 2016 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 using Toybox.System;
@@ -11,25 +5,23 @@ using Toybox.System;
 
 class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     var notify;
-    //var direction, directionString;
-
+ 
     // Handle menu button press
     function onMenu() {
-    	return true;
+    	return false;
     }
     
     function onBack() {
-    	//Ui.switchToView(WebRequestView(), WebRequestDelegate(), Ui.SLIDE_UP);
     	popView(Ui.SLIDE_UP);
     	return true;
     }
     
     function onKey(KEY_START) {
-        return true;
+        return false;
     }
 
     function onSelect() {
-        return true;
+        return false;
     }
 
     // Set up the callback to the view
@@ -42,7 +34,7 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     	notify.invoke("Executing\nRequest");
     	
     	var url = "http://www3.septa.org/hackathon/NextToArrive/" + replaceSpaces(startStation) + "/" + replaceSpaces(endStation) + "/20"; 
-		directionString = startStation + "-->" + endStation;
+		directionString = startStation + "\n -->" + endStation;
         
         Comm.makeWebRequest(
             url,
@@ -69,10 +61,27 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
     	return word;
     }
     
+        function formatTime(word) {
+        var word1, word2;
+    	var wordLength = word.length();
+    	var space = word.find(" ");
+    	// Remove any spaces
+    	while (space != null) {
+    		word1 = word.substring(0, space);
+    		word2 = word.substring(space + 1, wordLength);
+    		word = word1 + word2;
+    		space = word.find(" ");
+    		wordLength = word.length();
+    	}
+    	// Remove the trailing "M"
+    	word = word.substring(0, wordLength - 1); 
+    	return word;
+    }
+    
     
     // Receive the data from the web request
     function onReceive(responseCode, data) { 
-    	var data_text = "Delay  Depart      Arrive\n";
+    	var data_text = "Delay  Depart   Arr\n";
     	    	
       	if (data instanceof Lang.Dictionary) {
             System.println("data is a Dictionary.");
@@ -89,10 +98,10 @@ class ScheduleViewDelegate extends Ui.BehaviorDelegate {
             	if (delay.equals("On time")) {delay = 0;}
             	else {delay = delay.substring(0, delay.find(" min")).toNumber();}
 
-            	data_text += Lang.format("$1$m $2$-->$3$\n",  
+            	data_text += Lang.format("$1$m  $2$->$3$\n",  
             		[delay.format("%02d"), 
-            		data_temp.get("orig_departure_time"), 
-            		data_temp.get("orig_arrival_time")]
+            		formatTime(data_temp.get("orig_departure_time")), 
+            		formatTime(data_temp.get("orig_arrival_time"))]
             		);
             }
         }      	

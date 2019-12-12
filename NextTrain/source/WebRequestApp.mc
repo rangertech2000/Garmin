@@ -1,13 +1,6 @@
-//
-// Copyright 2015-2016 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 using Toybox.Application as App;
 var direction, directionString;
-var station1 = "Narberth";
-var station2 = "Suburban Station";
+var station1, station2;
 var startStation, endStation;
     
 class WebRequestApp extends App.AppBase {
